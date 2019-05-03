@@ -74,22 +74,29 @@ F_Equilibrio_do_Mundo(x, y) --> x eh o equilibrio do mundo de y
 F_Modifica_pouco(x, y) --> x modifica pouco y
 F_Rodeia(x, y) --> x rodeia y
 F_Fora_do_Mundo(x, y) --> x esta fora do mundo y
-
-
 F_Lugar(x) --> x eh um lugar
 F_Direito(x, y) --> x eh o direito sobre y
 F_Protecao(x, y) --> x eh a protecao de y
 F_Assidua(x, y, z) --> x eh assídua sobre y em(onde) z
 F_Jurisdicao(x, y) --> x está sob a jurisdição de y
-
-
 F_Companhia(x) --> x eh uma companhia
-
-
 F_Grupo(x) --> x eh um grupo
 F_Grupo_de_super_herois(x) --> x eh um grupo de superherois
 F_Produzida_em(x, y) --> x foi produzido no(a)(onde) y
-
+F_Serie(x) --> x eh uma serie
+F_Live_action(x) --> x eh uma live action
+F_Tokusatsu(x) --> x eh um Tokusatsu
+F_Base(x, y) --> x eh base de y
+F_Tornou_se_popular(x, y) --> x tornou-se popular em y
+F_Pais(x) --> x eh um pais
+F_Modelo(x) --> x eh um modelo
+F_Obra(x) --> x eh uma obra
+F_Eh_de_Super_heroi(x) --> x eh de super heroi
+F_Convencao(x) --> x eh uma convencao
+F_Modelo_americano(x) --> x eh um modelo americano
+F_Compartilha(x, y) --> x compartilha com y
+F_Fez_sucesso_em(x, y) --> x fez sucesso em y
+F_Eh(x, y) --> x eh y
 
 
 P(x, y) = x é algo de y
@@ -125,7 +132,8 @@ m"  "m #  m"
 
 
 --------------------------------------------------------------------------------
-Ele protagoniza as histórias de super aventura ou super-aventura, um gênero de ficção especulativa marcado também pelos super-vilões.
+Ele protagoniza as histórias de super aventura ou super-aventura, um gênero de
+ficção especulativa marcado também pelos super-vilões.
 -- Conceitos:
     -- F_Historias_de_super_aventura
     -- F_Genero_de_ficcao_especulativa
@@ -136,7 +144,14 @@ Ele protagoniza as histórias de super aventura ou super-aventura, um gênero de
     -- F_Definir
     -- F_Faz parte
 
-∀x Super_heroi(x) ^ ∀y  Historias_de_super_aventura(y) ^ Protagoniza(x, y) ^ ∃w Genero_de_ficcao_especulativa(w) ^ Faz_parte(y, w) ^ ∃z Super_vilao(z) ^ Define(z, y)
+∀x
+Super_heroi(x) ^
+∀y
+Historias_de_super_aventura(y) ^ Protagoniza(x, y) ^
+∃w
+Genero_de_ficcao_especulativa(w) ^ Faz_parte(y, w) ^
+∃z
+Super_vilao(z) ^ Define(z, y)
 --------------------------------------------------------------------------------
 
 
@@ -185,6 +200,8 @@ serem considerados super-heróis.
 ∀x Personagem(x) ^ ( Super_poderes(x) v ¬ Super_poderes(x)) -> Super_heroi(x)
 --------------------------------------------------------------------------------
 
+
+
 --------------------------------------------------------------------------------
 Will Eisner, famoso autor de The Spirit, herói mascarado sem superpoderes, ao
 explicar porque não queria que o personagem fosse super-herói alegou que o
@@ -213,7 +230,8 @@ m"  "m #  m"
 
 --------------------------------------------------------------------------------
 O objetivo dos super-heróis é, geralmente, a defesa do bem, da paz, o combate ao
-crime, tomando para si a responsabilidade de ser protagonista na luta do bem contra o mal.
+crime, tomando para si a responsabilidade de ser protagonista na luta do bem
+contra o mal.
 
 -- Conceitos:
     -- F_Super_heroi
@@ -927,14 +945,56 @@ se tornariam um elemento básico do mesmo.
 --------------------------------------------------------------------------------
 
 
+
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
+
+
+
 --------------------------------------------------------------------------------
 Houve obras de super-heróis de sucesso em outros países a maioria dos quais
 compartilham as convenções do modelo americano.
 -- Conceitos:
+    -- F_Pais
+    -- F_Modelo
+    -- F_Obra
+    -- F_Eh_de_Super_heroi
+    -- F_Convencao
+    -- F_Modelo_americano
 -- Indivíduos:
+    -- I_Estados_Unidos
 -- Propriedades:
-∃y ∀x
+    -- F_Compartilha
+    -- F_Fez_sucesso_em
+    -- F_Faz_parte
+    -- F_Eh
+
+∃x
+F_Obra(x) ^
+F_Eh_de_Super_heroi(x) ^
+∃y
+F_Pais(y) ^
+F_Fez_sucesso_em(x, y) ^
+¬F_Eh(y, I_Estados_Unidos)
+∃z
+F_Convencao(z) ^
+F_Compartilha(z, y) ^
+∃t
+F_Faz_parte(z, t) ^
+F_Modelo_americano(t)
+
+
 --------------------------------------------------------------------------------
+
+
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
 
 
 --------------------------------------------------------------------------------
@@ -942,9 +1002,60 @@ Ultraman, Kamen Rider, Super Sentai (a base para Power Rangers), Metal Hero e
 Kikaider tornaram-se populares em séries japonesas live-action conhecidas como
 tokusatsus.
 -- Conceitos:
+    -- F_Serie
+    -- F_Japones
+    -- F_Live_action
+    -- F_Tokusatsu
 -- Indivíduos:
+    -- I_Ultraman
+    -- I_Kamen_Rider
+    -- I_Super_Sentai
+    -- I_Power_Rangers
+    -- I_Metal_Hero
+    -- I_Kikairider
 -- Propriedades:
-∃y ∀x
+    -- F_Base
+    -- F_Tornou_se_popular
+
+
+F_Base(I_Super_Sentai, I_Power_Rangers) ^
+
+∃x
+F_Tornou_se_popular(I_Ultraman, x) ^
+F_Serie(x) ^
+F_Japones(x) ^
+F_Live_action(x) ^
+F_Tokusatsu(x) ^
+
+
+∃y
+F_Tornou_se_popular(I_Kamen_Rider, y) ^
+F_Serie(y) ^
+F_Japones(y) ^
+F_Live_action(y) ^
+F_Tokusatsu(y) ^
+
+∃w
+F_Tornou_se_popular(I_Super_Sentai, w) ^
+F_Serie(w) ^
+F_Japones(w) ^
+F_Live_action(w) ^
+F_Tokusatsu(w) ^
+
+∃t
+F_Tornou_se_popular(I_Metal_Hero, t) ^
+F_Serie(t) ^
+F_Japones(t) ^
+F_Live_action(t) ^
+F_Tokusatsu(t) ^
+
+∃b
+F_Tornou_se_popular(Kikaider, b) ^
+F_Serie(b) ^
+F_Japones(b) ^
+F_Live_action(b) ^
+F_Tokusatsu(b) ^
+
 --------------------------------------------------------------------------------
 
 
