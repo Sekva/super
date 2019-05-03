@@ -1,0 +1,1230 @@
+F_Usou(x, y) --> x usou y
+F_Cunhado(x, y) --> x foi cunhado por y
+F_Selo(x) --> x eh um selo
+F_Termo(x) --> x eh um termo
+F_Pessoa(x) --> x eh uma pessoa
+F_Super_heroi(x) --> x eh um super-heroi
+F_Ficticio(x) --> x eh ficticio
+F_Personagem(x) --> x eh um personagem
+F_Critico(x) --> x eh um critico
+F_Comunidade_legal(x) --> x faz parte da comunidade legal
+F_Marca(x) --> x eh uma marca
+F_Cumpre(x, y) --> x cumpre y
+F_Contesta(x, y) --> x contesta y
+F_Padrao_legal_para_a_protecao_marca_registrada_na_designação_distintiva_dos_Estados_Unidos_de_uma_unica__fonte_de_um_produto_ou_servico(x) --> x segue o padrao legal para a proteção de marca registrada na designação distintiva dos Estados Unidos de uma única fonte de um produto ou servico
+F_Historias_de_super_aventura(x) --> x eh uma historia de super aventura
+F_Genero_de_ficcao_especulativa(x) --> x eh um genero de ficcao cientifica especulativa
+F_Super_vilao(x) --> x eh um super vilao
+F_Protagoniza(x, y) --> x protagoniza y
+F_Definir(x, y) --> x define y
+F_Faz_parte(x, y) --> x faz parte de y
+F_Super_heroina(x) --> x eh Super_heroina
+F_Conhecido(x, y) --> x eh conhecido como y
+F_Feminino(x) --> x eh feminino
+F_Super_poderes(x) --> x tem Super poderes
+F_Real(x) --> x é real
+F_Inspira_a_agir_melhor(x, y) --> x inspira y a agir melhor
+F_Lancou_na_data(x, y, z) --> x lancou y na data z
+F_Nova_versao(x, y) --> x eh nova versao de y
+F_Fez_sucesso(x) --> x fez sucesso
+F_Defesa_da_Paz(x) --> x eh defesa do paz
+F_Defesa_da_Bem(x) --> x eh defesa do paz
+F_Combate_ao_crime(x) --> x eh combate ao crime
+F_Tomar_para_si(x, y) --> x toma y pra si
+F_Responsabilidade(x) --> x eh responsabilidade
+F_Protagoniza(x, y) --> x protagoniza y
+F_Luta(x, y, z) --> x eh uma luta de y conta z
+F_Bem(x) --> x eh bem
+F_Mal(x) --> x eh mal
+F_Simbolico(x) --> x eh simbolico
+F_Limite_da_caricatura(x) --> x esta no limite da caricatura
+F_Historia --> x eh uma historia
+F_Puramente_maniqueista(x) --> x eh puramente maniquista
+F_Audiencia(x) --> x eh audiencia
+F_Jovem(x) --> x eh jovem
+F_Usado(x, y) --> x eh usado por y
+F_Envolvido(x, y) --> x esta envolvido em y
+F_Destinado(x, y) --> x eh destinado a y
+F_Palavra(x) --> x eh uma palavra
+F_Surgiu(x, y) --> x surgiu na data y
+F_Pulp() --> x eh do genero pulp
+F_Revista() --> x eh revista
+F_Mulher() --> x eh mulher
+F_Tirinha() --> x eh tirinha
+F_Visao_Raio_x() --> x eh visao de raio x
+F_Possui(x, y) --> x possui y
+F_Sobre(x, y) -->x eh sobre y
+F_Japones() --> x eh japones
+F_Teatro_de_papel() --> xeh teatro de papel
+F_Uniforme() --> x eh uniforme
+F_Do_Inicio(x, y) --> x eh do inicio de y
+F_Quadrinho(x) --> x eh quadrinho
+F_Iconico(x) -->x eh iconico
+F_Estrou_durante(x, y) --> x estreou durante y
+F_Livro(x) --> x eh um livro
+F_Historia_de_super_heroi(x) --> x eh historia de super heroi
+F_Evolue_fora_do_tempo(x) --> x evolue fora do tempo
+F_Envelhece(x) --> x envelhece
+F_Vida_identica(x) --> x tem vida identica
+F_Super_poderes_consideraveis(x) --> x tem super poderes consideraveis
+F_Mundo(x) --> x eh um mundo
+F_Observa_em(x, y, z) --> x observa y em z
+F_Autor(x, y) --> x eh autor de y
+F_Equilibrio_do_Mundo(x, y) --> x eh o equilibrio do mundo de y
+F_Modifica_pouco(x, y) --> x modifica pouco y
+F_Rodeia(x, y) --> x rodeia y
+F_Fora_do_Mundo(x, y) --> x esta fora do mundo y
+
+
+F_Lugar(x) --> x eh um lugar
+F_Direito(x, y) --> x eh o direito sobre y
+F_Protecao(x, y) --> x eh a protecao de y
+F_Assidua(x, y, z) --> x eh assídua sobre y em(onde) z
+F_Jurisdicao(x, y) --> x está sob a jurisdição de y
+
+
+F_Companhia(x) --> x eh uma companhia
+
+
+F_Grupo(x) --> x eh um grupo
+F_Grupo_de_super_herois(x) --> x eh um grupo de superherois
+F_Produzida_em(x, y) --> x foi produzido no(a)(onde) y
+
+
+
+P(x, y) = x é algo de y
+ ∃y ∀x
+
+
+
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
+
+
+--------------------------------------------------------------------------------
+Um super-herói é um personagem fictício.
+-- Conceitos:
+-- Personagem
+    -- F_Ficticio
+    -- F_Super_heroi
+-- Indivíduos:
+-- Propriedades:
+
+∀x Super_heroi(x) -> Personagem(x)  ^ Ficticio(x)
+--------------------------------------------------------------------------------
+
+
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
+
+
+--------------------------------------------------------------------------------
+Ele protagoniza as histórias de super aventura ou super-aventura, um gênero de ficção especulativa marcado também pelos super-vilões.
+-- Conceitos:
+    -- F_Historias_de_super_aventura
+    -- F_Genero_de_ficcao_especulativa
+    -- F_Super_viloes
+-- Indivíduos:
+-- Propriedades:
+    -- F_Protagoniza
+    -- F_Definir
+    -- F_Faz parte
+
+∀x Super_heroi(x) ^ ∀y  Historias_de_super_aventura(y) ^ Protagoniza(x, y) ^ ∃w Genero_de_ficcao_especulativa(w) ^ Faz_parte(y, w) ^ ∃z Super_vilao(z) ^ Define(z, y)
+--------------------------------------------------------------------------------
+
+
+
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
+
+
+
+--------------------------------------------------------------------------------
+As personagens femininas são conhecidas como super-heroínas.
+-- Conceitos:
+    -- F_Personagem
+    -- F_Feminino
+    -- F_Super_heroina
+-- Indivíduos:
+-- Propriedades:
+    -- F_Conhecido
+
+∀x Personagem(x) ^ Feminino(x) -> ∀y Super_heroina(y) ^ Conhecido(x, y)
+--------------------------------------------------------------------------------
+
+
+
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
+
+
+
+--------------------------------------------------------------------------------
+Vale salientar que personagens não têm necessidade de ter superpoderes para
+serem considerados super-heróis.
+-- Conceitos:
+    -- F_Personagem
+    -- F_Super_poderes
+    -- F_Super_heroi
+-- Indivíduos:
+-- Propriedades:
+
+∀x Personagem(x) ^ ( Super_poderes(x) v ¬ Super_poderes(x)) -> Super_heroi(x)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Will Eisner, famoso autor de The Spirit, herói mascarado sem superpoderes, ao
+explicar porque não queria que o personagem fosse super-herói alegou que o
+conceito era negativo a medida que fora divulgado por Hitler em seu livro Mein
+Kampf, publicado nos Estados Unidos em 1935.
+-- Conceitos:
+   -- F_Famoso
+   -- F_Autor
+-- Indivíduos:
+   -- I_Will_Eisner
+   -- I_The_Spirit
+-- Propriedades:
+
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
+
+
+
+--------------------------------------------------------------------------------
+O objetivo dos super-heróis é, geralmente, a defesa do bem, da paz, o combate ao
+crime, tomando para si a responsabilidade de ser protagonista na luta do bem contra o mal.
+
+-- Conceitos:
+    -- F_Super_heroi
+    -- F_Defesa_da_Paz
+    -- F_Defesa_da_Bem
+    -- F_Combate_ao_crime
+    -- F_Tomar_para_si
+    -- F_Responsabilidade
+    -- F_Protagoniza
+    -- F_Luta
+    -- F_Bem
+    -- F_Mal
+-- Indivíduos:
+-- Propriedades:
+    -- F_Objetivo
+    -- F_Faz_parte
+
+∃x ∃y ∃z ∃w ∃u ∃t ∃g ∃k ∃l
+F_Super_heroi(x) ^
+F_Objetivo(y, x) ^
+F_Defesa_da_Bem(z) ^
+F_Defesa_da_Paz(w) ^
+F_Combate_ao_crime(u) ^
+(F_Faz_parte(z, y) v F_Faz_parte(w, y) v F_Faz_parte(u, y)) ^
+F_Responsabilidade(t) ^
+F_Tomar_para_si(x, t) ^
+F_Bem(k) ^
+F_mal(l) ^
+F_Luta(g, k, l) ^
+F_Protagoniza(x, g)
+--------------------------------------------------------------------------------
+
+
+
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
+
+
+
+--------------------------------------------------------------------------------
+No entanto, um super-herói também pode ser um personagem real ou fictício que
+inspira qualquer pessoa a agir melhor.
+-- Conceitos:
+    -- F_Super_heroi
+    -- F_Personagem
+    -- F_Real
+    -- F_Ficticio
+    -- F_Pessoa
+-- Indivíduos:
+-- Propriedades:
+    -- F_Inspira_a_agir_melhor
+
+∀x∀y
+F_Personagem(x) ^
+(F_Real(x) v F_Ficticio(x)) ^
+F_Pessoa(y) ^
+F_Inspira_a_agir_melhor(x, y)
+-> F_Super_heroi(x)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+O universo dos super-heróis pode ser misturado com temas mitológicos ou mundos
+imaginários muito diversos, muitos heróis encontram e são deuses olímpicos,
+asgardianos ou de outras mitologias, bem como personagens literários (Drácula,
+Monstro de Frankenstein, Fu Manchu, entre outros).
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+ ∃y ∀x
+--------------------------------------------------------------------------------
+
+
+
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
+
+
+
+--------------------------------------------------------------------------------
+Em seu livro "De Superman au Surhomme", Umberto Eco observa que a maioria
+das histórias de super-heróis evoluem fora do tempo, já que não envelhecem e têm
+uma vida idêntica. Eles também estão fora do mundo, porque, apesar de
+superpoderes às vezes consideráveis, os super-heróis modificam menos o
+equilíbrio do mundo que os rodeia do que se poderia acreditar.
+-- Conceitos:
+    -- F_Livro
+    -- F_Historia_de_super_heroi
+    -- F_Evolue_fora_do_tempo
+    -- F_Envelhece
+    -- F_Vida_identica
+    -- F_Super_heroi
+    -- F_Super_poderes_consideraveis
+    -- F_Mundo
+-- Indivíduos:
+    -- I_De_Superman_au_Surhomme
+    -- I_Uberto_Eco
+-- Propriedades:
+    -- F_Observa_em
+    -- F_Autor
+    -- F_Faz_parte
+    -- F_Equilibrio_do_Mundo
+    -- F_Modifica_pouco
+    -- F_Rodeia
+    -- F_Fora_do_Mundo
+
+F_Livro(I_De_Superman_au_Surhomme) ^
+F_Autor(I_Uberto_Eco, I_De_Superman_au_Surhomme) ^
+∃x
+F_Observa(I_Uberto_Eco, x, I_De_Superman_au_Surhomme) ^
+F_Historia(x) ^
+F_Historia_de_super_heroi(x) ^
+F_Evolue_fora_do_tempo(x) ^
+¬ F_Envelhece(x) ^
+F_Vida_identica(x) ^
+∃y ∃t
+F_Mundo(t)
+F_Super_heroi(y) ^
+F_Fora_do_Mundo(y, t)
+F_Faz_parte(y, x) ^
+F_Super_poderes_consideraveis(y) ^
+∃z
+F_Equilibrio_do_Mundo(z, t) ^
+F_Modifica_pouco(y, z) ^
+F_Rodeia(t, y)
+
+--------------------------------------------------------------------------------
+
+
+
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
+
+
+
+--------------------------------------------------------------------------------
+No seu sentido primordial, os super-heróis podem ser usados como personagens
+simbólicos, ou no limite da caricatura, às vezes envolvidos em histórias
+puramente maniqueísta que se destinam a uma audiência jovem.
+-- Conceitos:
+   -- F_Super_heroi
+   -- F_Simbolico
+   -- F_Limite_da_caricatura
+   -- F_Historia
+   -- F_Puramente_maniqueista
+   -- F_Audiencia
+   -- F_Jovem
+-- Indivíduos:
+-- Propriedades:
+   -- F_Usado
+   -- F_Envolvido
+   -- F_Destinado
+
+∃x ∃y ∃z ∃t
+F_Super_heroi(x) ^
+F_Usado(x, y) ^
+(F_Personagem(y) ^ F_Simbolico(y)) v F_Limite_da_caricatura(y) ^
+F_Historia(z) ^
+F_Puramente_maniqueista(z) ^
+F_Envolvido(x, z) ^
+F_Audiencia(t) ^
+F_Jovem(t) ^
+F_Destinado(z, t)
+
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+O arquétipo do super-herói, no entanto, tem muitas variações.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+ ∃y ∀x
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+O primeiro registro de um herói fantasiado foi na peça de teatro Pimpinela Escarlate (1903), personagem que popularizou a iria de um vingador mascarado e o tropo da identidade secreta.
+Outros personagens incluem Green Hornet, Scarecrow of Romney Marsh e Spring Heeled Jack, o último de quem surgiu pela primeira vez como uma lenda urbana.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+ ∃y ∀x
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Da mesma forma, os heróis de ficção científica e John Carter, Buck Rogers e Flash Gordon, com as suas armas futuristas e gadgets; Tarzan, com o seu alto grau de capacidade atlética e força, e sua capacidade de se comunicar com os animais; Conan, o Bárbaro de Robert E. Howard e o biologicamente modificado Hugo Danner do romance Gladiator, foram heróis com habilidades incomuns que lutaram contra inimigos, às vezes maiores que a vida.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+ ∃y ∀x
+--------------------------------------------------------------------------------
+
+
+
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
+
+
+
+--------------------------------------------------------------------------------
+A palavra "super-herói" teria surgido em 1917.
+-- Conceitos:
+    -- F_Palavra
+-- Indivíduos:
+    -- I_Palavra_Super_Heroi
+    -- I_1917
+-- Propriedades:
+    -- F_Surgiu
+
+F_Palavra(I_Palavra_Super_Heroi) ^ F_Surgiu(I_Palavra_Super_Heroi, I_1917)
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Os antecedentes mais diretos são os heróis da literatura pulp como o mascarado
+Zorro (criado por Johnston McCulley em 1919 com publicação da novela The Curse of Capistrano)
+com a sua marca "Z", o preternatural mesmérico Shadow (1930),
+o "auge humano Doc Savage (1933),
+os heróis de aventuras espaciais do subgênero space opera como Lensman de E. E. Smith e personagens dos quadrinhos
+como Hugo Hercules (1902) do cartunista William HD Koerner, publicado por cinco meses no jornal Chicago Tribune,
+Patoruzú de Dante Quinterno (1928), Popeye de E. C. Segar (1929).
+
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+ ∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Em 1936, são lançados os primeiros heróis mascarados das histórias em quadrinhos:
+O Fantasma, criado por Lee Falk e publicado em uma tira diária lançada em 17 de
+fevereiro de 1936 e The Clock, criado por George Brenner e publicado pela primeira
+vez em Funny Pages (Novembro de 1936) da editora Centaur Publications.
+
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+ ∃y ∀x
+--------------------------------------------------------------------------------
+
+
+
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
+
+
+--------------------------------------------------------------------------------
+Em 1937, surge na revista pulp Spicy Mystery Stories,
+a tira da personagem Olga Mesmer sobre uma mulher que possuía visão de raio x.
+-- Conceitos:
+    -- F_Pulp
+    -- F_Revista
+    -- F_Personagem
+    -- F_Mulher
+    -- F_Tirinha
+    -- F_Visao_Raio_x
+-- Indivíduos:
+    -- I_Spicy_Mystery_Stories
+    -- I_1937
+    -- I_Olga_Mesmer
+-- Propriedades:
+    -- F_Surgiu
+    -- F_Possui
+    -- F_Sobre
+    -- F_Faz_parte
+
+∃x ∃y
+F_Surgiu(I_Spicy_Mystery_Stories, I_1937) ^
+F_Revista(I_Spicy_Mystery_Stories) ^
+F_Pulp(I_Spicy_Mystery_Stories) ^
+F_Tirinha(x) ^
+F_Personagem(I_Olga_Mesmer) ^
+F_Sobre(x, I_Olga_Mesmer)
+F_Mulher(I_Olga_Mesmer) ^
+F_Possui(I_Olga_Mesmer, y) ^
+F_Visao_Raio_x(y) ^
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Historiadores apontam para a primeira aparição de Superman , criado por Jerome
+"Jerry" Siegel e desenhado por Joseph "Joe" Shuster, em Action Comics 1 (Junho
+de 1938) como a estreia do arquétipo de histórias em quadrinhos do super-herói.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+ ∃y ∀x
+--------------------------------------------------------------------------------
+
+
+
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
+
+
+--------------------------------------------------------------------------------
+Fora da indústria de quadrinhos norte-americanos, personagens japoneses dos
+shibais, uma espécie de teatro de papel, como Ōgon Bat e Princípe Gamma
+(em japonês: ガンマ王), já apresentavam uniformes e superpoderes no início da
+década de 1930.
+-- Conceitos:
+    -- F_Personagem
+    -- F_Japones
+    -- F_Teatro_de_papel
+    -- F_Uniforme
+    -- F_Super_poderes
+-- Indivíduos:
+    -- I_Kamishibais
+    -- I_Ōgon_Bat
+    -- I_Princípe_Gamma
+    -- I_1930
+-- Propriedades:
+    -- F_Do_Inicio
+    -- F_Usado
+    -- F_Faz_parte
+
+∃x
+F_Personagem(x) ^
+F_Japones(x) ^
+F_Faz_parte(x, I_Kamishibais) ^
+F_Teatro_de_papel(I_Kamishibais) ^
+F_Personagem(I_Ōgon_Bat) ^
+F_Japones(I_Ōgon_Bat) ^
+F_Faz_parte(I_Ōgon_Bat, I_Kamishibais) ^
+F_Personagem(I_Princípe_Gamma) ^
+F_Japones(I_Princípe_Gamma) ^
+F_Faz_parte(I_Princípe_Gamma, I_Kamishibais) ^
+∃y ∃z
+F_Uniforme(y) ^
+F_Super_poderes(z) ^
+F_Usado(y, x) ^
+F_Possui(x, z) ^
+F_Do_Inicio(x, I_1930)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Durante a década de 1940, haviam muitos super-heróis: Flash, Lanterna Verde e
+Besouro Azul estrearam nesta época.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+ ∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Esta era viu a estreia da primeira super-heroína conhecida, Fantomah de Fletcher
+ Hanks, uma mulher imortal do Egito Antigo que poderia se transformar em uma
+ criatura com superpoderes para combater o mal; Ela estreou em Jungle Comics
+ (fevereiro de 1940) da editora Fiction House, creditado com pseudônimo "Barclay
+ Flagg. Invisible Scarlet O'Neil, uma personagem sem disfarce que lutou contra o
+ crime e sabotadores de guerra usando o poder da invisibilidade criada por
+ Russell Stamm, estrearia na tira de jornal homônima alguns meses depois, em 3
+ de junho de 1940.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+ ∃y ∀x
+--------------------------------------------------------------------------------
+
+
+
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
+
+
+--------------------------------------------------------------------------------
+A super-heroína da quadrinhos mais icônica, que estreou durante a Era de Ouro,
+é a Mulher-Maravilha.
+-- Conceitos:
+    -- F_Super_heroina
+    -- F_Quadrinho
+    -- F_Iconico
+-- Indivíduos:
+    -- I_Era_de_Ouro
+    -- I_Mulher_Maravilha
+-- Propriedades:
+    -- F_Estrou_durante
+    -- F_Faz_parte
+
+∃x
+F_Quadrinho(x) ^
+F_Estrou_durante(I_Mulher_Maravilha, I_Era_de_Ouro)
+F_Super_heroina(I_Mulher_Maravilha) ^
+F_Iconico(I_Mulher_Maravilha) ^
+F_Faz_parte(I_Mulher_Maravilha, x) ^
+
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Inspirado pelas amazonas da mitologia grega, ela foi criada pelo psicólogo William Moulton Marston, com ajuda e inspiração de sua esposa Elizabeth e seu amante mútua Olive Byrne.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+A primeira aparição da personagem foi em All Star Comics (dezembro de 1941), publicado pela All-American Publications, uma das duas empresas que se fundiriam para formar DC Comics em 1944.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+ ∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+Durante a Segunda Guerra Mundial, os super-heróis se tornaram ainda mais populares, sobrevivendo ao racionamento de papel e a perda de vários talentosos ilustradores que serviram nas forças armadas.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+A busca de histórias simples de vitórias do bem sobre o mal que poderiam levar a
+consular ou parcialmente esquecer os horrores da guerra e do momento em que pode explicar a popularidade dos super-heróis em tempo de guerra.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Nesta pesquisa dos leitores, os criadores dos quadrinhos responderam com histórias em que os super-heróis de combate as forças do Eixo e introduziram alguns heróis inspirados em temas patrióticos, incluindo o Capitão América da Timely Comics, que, juntamente com o Tocha Humana e Namor, mais de uma vez salvaram o mundo da ameaça do nazismo.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Em 1952, o mangá Tetsuwan Atom de Osamu Tezuka (mais popularmente conhecido no Ocidente como Astro Boy) foi publicado.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+A série se concentrou em um menino robô construído por um cientista para substituir seu filho falecido.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+ ∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Sendo construído a partir de um robô incompleto originalmente destinado a fins
+militares, Astro Boy possuía poderes surpreendentes, como o voo através de
+propulsores em seus pés e a incrível força mecânica de seus membros.
+Após a guerra, os super-heróis perderam popularidade.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+ ∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+
+Um fator foi uma cruzada moral que foi considerada prejudicial para os
+quadrinhos, que foram acusados de incitar a delinquência juvenil.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+ ∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+O movimento foi liderado pelo Dr. Fredric Wertham, que, no livro Seduction of the Innocent (1954).
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+ ∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Em resposta várias editoras adotaram o Comics Code Authority, um sistema de auto-censura.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+ ∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Alguns pesquisadores chamam esse período de interregno ou "Era atômica".
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+ ∃y ∀x
+--------------------------------------------------------------------------------
+
+
+
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
+
+
+
+--------------------------------------------------------------------------------
+Em 1956 a DC Comics lançou uma nova versão do Flash, que foi um sucesso imediato.
+-- Conceitos:
+    -- F_Lancou_na_data
+    -- F_Nova_versao
+    -- F_Fez_sucesso
+-- Indivíduos:
+    -- I_Flash
+    -- I_DC_Comics
+    -- I_1956
+-- Propriedades:
+
+
+∃x  F_Nova_versao(x, I_Flash) ^ F_Lancou_na_data(I_DC_Comics, x, I_1956) ^ F_Fez_sucesso(x)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Isso levou a empresa a reviver outros super-heróis como Gavião Negro e Lanterna
+Verde, que ganharam um enfoque mais próximo da ficção científica, lançando uma
+era mais tarde considerada a Era de Prata dos Quadrinhos e lançanado também a
+equipe de super-heróis da Liga da Justiça da América, o que teria reavivado as
+glórias do primeiro supergrupo da editora, a Sociedade da Justiça da América.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Proponente principal desta renovação foi o editor Julius Schwartz, que teve a
+ideia de reformular os personagens de histórias em quadrinhos dos anos quarenta
+e cinquenta.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Como principais colaboradores estiveram Gardner Fox, Joe Orlando, John Broome,
+Curt Swan, Joe Kubert e Carmine Infantino, todos símbolos desse período que
+ficou conhecida como Era de Prata dos Quadrinhos. Durante esta era, DC
+apresentou personagens como  de Batwoman em 1956, Supergirl, Miss Arrowette e
+Bat-Girl. Todas derivadas de super-heróis masculinos estabelecidos.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Em 1958, a televisão japonesa viu a estreia do super-herói Moonlight Mask.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Com o retorno dos super-heróis da DC, Stan Lee editor da concorrente Atlas
+Comics (anteriormente conhecida como Timely) de Martin Goodman, e
+artistas/coautores Jack Kirby e Steve Ditko e outros ilustradores lançaram uma
+nova linha de super-heróis (a Atlas passou a usar o nome Marvel Comics),
+começando com o Quarteto Fantástico, equipe criada em 1961 para competir com a
+Liga da Justiça. Contudo, as novas aventuras enfatizavam conflitos pessoais para
+o desenvolvimento do caráter, mas também com muita ação e aventura. Esta nova
+forma de entender os super-heróis teve como consequência que muitos deles
+diferiam muito dos padrões criados em 1940. Alguns exemplos:
+O Coisa, um membro do Quarteto Fantástico, é uma criatura muito forte mas
+monstruosa, com a pele semelhante à rocha e sua aparência muitas vezes o levou à
+auto piedade.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+O Homem-Aranha era um jovem que muitas vezes fora forçado a cuidar de si mesmo
+para sobreviver e manter sua vida social.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Hulk viveu como sua alter ego Bruce Banner à maneira de Dr. Jekyll e Mr. Hyde e
+estava propenso a explosões de raiva com consequências extremas.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Os X-Men são mutantes com poderes adquiridos por mudanças genéticas, odiados e
+temidos pela sociedade.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Em 1963, Astro Boy foi adaptado para uma série de televisão de anime altamente
+influente.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Phantom Agents de Tatsuo Yoshida, foi lançada em 1964 centrou-se em ninjas
+que trabalham para o governo japonês.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Em 1966, surge a série de ficção científica/terror Ultra Q criada por Eiji
+Tsuburaya, que eventualmente daria origem a Ultraman, gerando uma franquia de
+sucesso focada no subgênero do herói gigante, onde os super-heróis seriam tão
+grandes quanto os monstros gigantes (kaijus) que eles lutaram.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Em 1972, o anime Science Ninja Team Gatchaman estreou, baseado na ideia da
+equipe de super-heróis Phantom Agents, além de apresentar cores diferentes para
+membros da equipe e veículos especiais para apoiá-los, seus veículos também
+podiam se combinar em um maior.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Outro evento importante foi a estréia de Mazinger Z por Go Nagai, criando o
+gênero Super Robot.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Go Nagai também escreveu o mangá Cutie Honey em 1973, embora o gênero garota
+mágica já existisse, o mangá de Nagai apresentou sequências de transformação que
+se tornariam um elemento básico do mesmo.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Houve obras de super-heróis de sucesso em outros países a maioria dos quais
+compartilham as convenções do modelo americano.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Ultraman, Kamen Rider, Super Sentai (a base para Power Rangers), Metal Hero e
+Kikaider tornaram-se populares em séries japonesas live-action conhecidas como
+tokusatsus.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Em 1947, o roteirista e desenhista filipino Mars Ravelo introduziu a primeira
+super-heroína do país, Darna, uma que encontrou um talismã místico de outro
+planeta que lhe permite se transformar em um mulher guerreira adulta.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Em 1940 já havia paródias do gênero como Super Mouse.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Em 1969, a Mondadori, editora que publicava quadrinhos da Disney na Itália, Pato
+Donald ganhou outra identidade como Superpato, inicialmente, inspirado em
+Diabolik, um ladrão dos quadrinhos italianos, anos depois, o Superpato passou a
+ser retratado como um super-herói.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+ Nos Estados Unidos, Pateta também foi dotado de uma identidade como um super-herói, o Superpateta, adquirindo poderes semelhantes aos de Superman ou Marvelman ao comer um tipo especial de amendoim.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
+
+
+
+--------------------------------------------------------------------------------
+Superpato e Superpateta integraram grupos de super-heróis em histórias
+produzidas no Brasil (Clube dos Heróis) e na Itália (Ultra-Heróis).
+-- Conceitos:
+    -- F_Grupo
+    -- F_Grupo_de_super_herois
+    -- F_Historia
+-- Indivíduos:
+    -- I_Superpato
+    -- I_Superpata
+    -- I_Brasil
+    -- I_Clube_dos_Herois
+    -- I_Italia
+    -- I_Ultra_Herois
+-- Propriedades:
+    -- F_Produzida_em
+    -- F_Faz_parte (Integra)
+
+
+F_Grupo(I_Clube_dos_Herois) ^
+F_Grupo_de_super_herois(I_Clube_dos_Herois) ^
+F_Faz_parte(I_Superpato, I_Clube_dos_Herois) ^
+F_Faz_parte(I_Superpata, I_Clube_dos_Herois) ^
+
+F_Grupo(I_Ultra_Herois) ^
+F_Grupo_de_super_herois(I_Ultra_Herois) ^
+F_Faz_parte(I_Superpato, I_Ultra_Herois) ^
+F_Faz_parte(I_Superpata, I_Ultra_Herois) ^
+
+∃x ∃y
+F_Historia(x) ^
+F_Historia(y) ^
+F_Faz_parte(I_Ultra_Herois, x) ^
+F_Faz_parte(I_Clube_dos_Herois, y) ^
+F_Produzida_em(x, I_Italia) ^
+F_Produzida_em(y, I_Brasil)
+
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Nos EUA, apesar de genericamente utilizado no termo popular, o termo Super
+Hero e Super Heroes são marcas registradas somente aos personagens da DC Comics
+e Marvel (U.S. Trademark Serial Nos. 72243225 and 73222079).
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
+
+
+
+--------------------------------------------------------------------------------
+Outras companhias tem utilizado termos como Superhero ou super-hero (com hífen).
+-- Conceitos:
+    -- F_Companhia
+    -- F_Termo
+-- Indivíduos:
+    -- I_Termo_Superhero
+    -- I_Termo_super-hero
+-- Propriedades:
+    -- F_Usou
+
+
+F_Termo(I_Termo_super-hero) ^
+F_Termo(I_Termo_Superhero) ^
+∃x
+F_Companhia(x) ^
+( F_Usou(x, I_Termo_Superhero) v F_Usou(x, I_Termo_super-hero) )
+
+--------------------------------------------------------------------------------
+
+
+
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
+
+
+
+--------------------------------------------------------------------------------
+DC Comics e Marvel Comics têm sido assíduas na proteção de seus direitos sobre a
+marca "Super Hero" em jurisdições onde os registros estão em vigor, incluindo
+Estados Unidos, Reino Unido e Austrália.
+-- Conceitos:
+    -- F_Marca
+    -- F_Lugar
+-- Indivíduos:
+    -- I_DC_Comics
+    -- I_Marvel_Comics
+    -- I_Marca_Super_Hero
+    -- I_Reino_Unido
+    -- I_Australia
+    -- I_Estados_Unidos
+-- Propriedades:
+    -- F_Direito
+    -- F_Protecao
+    -- F_Assidua
+    -- F_Jurisdicao
+
+
+
+∃x ∃y ∀z
+F_Direito(y, I_Marca_Super_Hero) ^
+F_Protecao(x, y) ^
+
+F_Lugar(I_Australia) ^
+F_Lugar(I_Reino_Unido) ^
+F_Lugar(I_Estados_Unidos) ^
+
+F_Jurisdicao(x, I_Australia) ^
+F_Jurisdicao(x, I_Reino_Unido) ^
+F_Jurisdicao(x, I_Estados_Unidos) ^
+
+F_Lugar(z) ^
+(F_Jurisdicao(x, z) -> (
+    F_Assidua(I_DC_Comics, x, z) ^
+    F_Assidua(I_Marvel_Comics, x, z) ^
+    F_Marca(I_Marca_Super_Hero)
+))
+
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
+
+
+
+--------------------------------------------------------------------------------
+Os críticos na comunidade legal contestam se as marcas "Super Hero" cumprem
+o padrão legal para a proteção de marca registrada na designação distintiva dos Estados Unidos de uma única fonte de um produto ou serviço.
+-- Conceitos:
+    -- F_Critico
+    -- F_Comunidade_legal
+    -- F_Marca
+    -- F_Padrao_legal_para_a_protecao_marca_registrada_na_designação_distintiva_dos_Estados_Unidos_de_uma_unica__fonte_de_um_produto_ou_servico
+-- Indivíduos:
+    -- I_Super Hero
+-- Propriedades:
+    -- F_Cumprir
+    -- F_Contestar
+
+Marca(SuperHero)^
+∀x Critico(x) ^ Comunidade_legal(x) ^ Contestar(x, Super Hero) ^ ∃y Padrao_legal_para_a_protecao_marca_registrada_na_designação_distintiva_dos_Estados_Unidos_de_uma_unica__fonte_de_um_produto_ou_servico(y) ^ Cumprir(Super Hero, y)
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Existe um conflito sobre cada elemento desse padrão: se "Super Hero" é distintivo e não genérico, se o "Super Hero" designa uma fonte de produtos ou serviços, e se a DC e a Marvel representam conjuntamente uma única fonte.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+
+∃y ∀x
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Alguns críticos caracterizam ainda mais as marcas como um uso indevido da lei
+de marcas registradas para combater a concorrência.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+Até essa data, além de uma ação de remoção de marca registrada realizada em 2016
+ contra o registro DC Comics e Marvel Comics no Reino Unido, nenhuma disputa
+ envolvendo a marca registrada "Super Hero" teve julgamento ou audiência.
+-- Conceitos:
+-- Indivíduos:
+-- Propriedades:
+∃y ∀x
+
+--------------------------------------------------------------------------------
+
+
+
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
+
+
+
+--------------------------------------------------------------------------------
+America's Best Comics, originalmente parte do selo Wildstorm, usou o termo
+science hero, cunhado por Alan Moore.
+-- Conceitos:
+    -- F_Selo
+    -- F_Termo
+    -- F_Pessoa
+-- Indivíduos:
+    -- I_America's Best Comics
+    -- I_Wildstorm
+    -- I_Alan Moore
+    -- I_Science hero
+-- Propriedades:
+    -- F_Faz_parte
+    -- F_Usou
+    -- F_Cunhado
+
+F_Selo(I_Wildstorm)^
+F_Selo(I_America's Best Comics)^
+F_Pessoa(I_Alan Moore)^
+F_Termo(I_Science hero)^
+F_Faz_parte(I_America's Best Comics, I_Wildstorm) ^
+F_Usou(I_America's Best Comics, I_Science hero) ^
+F_Cunhado(I_Science hero, I_Alan Moore)
+--------------------------------------------------------------------------------
