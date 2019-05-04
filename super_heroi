@@ -1,106 +1,145 @@
-F_Usou(x, y) --> x usou y
-F_Cunhado(x, y) --> x foi cunhado por y
-F_Selo(x) --> x eh um selo
-F_Termo(x) --> x eh um termo
-F_Pessoa(x) --> x eh uma pessoa
-F_Super_heroi(x) --> x eh um super-heroi
-F_Ficticio(x) --> x eh ficticio
-F_Personagem(x) --> x eh um personagem
-F_Critico(x) --> x eh um critico
-F_Comunidade_legal(x) --> x faz parte da comunidade legal
-F_Marca(x) --> x eh uma marca
-F_Cumpre(x, y) --> x cumpre y
-F_Contesta(x, y) --> x contesta y
-F_Padrao_legal_para_a_protecao_marca_registrada_na_designação_distintiva_dos_Estados_Unidos_de_uma_unica__fonte_de_um_produto_ou_servico(x) --> x segue o padrao legal para a proteção de marca registrada na designação distintiva dos Estados Unidos de uma única fonte de um produto ou servico
-F_Historias_de_super_aventura(x) --> x eh uma historia de super aventura
-F_Genero_de_ficcao_especulativa(x) --> x eh um genero de ficcao cientifica especulativa
-F_Super_vilao(x) --> x eh um super vilao
-F_Protagoniza(x, y) --> x protagoniza y
-F_Definir(x, y) --> x define y
-F_Faz_parte(x, y) --> x faz parte de y
-F_Super_heroina(x) --> x eh Super_heroina
-F_Conhecido(x, y) --> x eh conhecido como y
-F_Feminino(x) --> x eh feminino
-F_Super_poderes(x) --> x tem Super poderes
-F_Real(x) --> x é real
-F_Inspira_a_agir_melhor(x, y) --> x inspira y a agir melhor
-F_Lancou_na_data(x, y, z) --> x lancou y na data z
-F_Nova_versao(x, y) --> x eh nova versao de y
-F_Fez_sucesso(x) --> x fez sucesso
-F_Defesa_da_Paz(x) --> x eh defesa do paz
-F_Defesa_da_Bem(x) --> x eh defesa do paz
-F_Combate_ao_crime(x) --> x eh combate ao crime
-F_Tomar_para_si(x, y) --> x toma y pra si
-F_Responsabilidade(x) --> x eh responsabilidade
-F_Protagoniza(x, y) --> x protagoniza y
-F_Luta(x, y, z) --> x eh uma luta de y conta z
-F_Bem(x) --> x eh bem
-F_Mal(x) --> x eh mal
-F_Simbolico(x) --> x eh simbolico
-F_Limite_da_caricatura(x) --> x esta no limite da caricatura
-F_Historia --> x eh uma historia
-F_Puramente_maniqueista(x) --> x eh puramente maniquista
-F_Audiencia(x) --> x eh audiencia
-F_Jovem(x) --> x eh jovem
-F_Usado(x, y) --> x eh usado por y
-F_Envolvido(x, y) --> x esta envolvido em y
-F_Destinado(x, y) --> x eh destinado a y
-F_Palavra(x) --> x eh uma palavra
-F_Surgiu(x, y) --> x surgiu na data y
-F_Pulp() --> x eh do genero pulp
-F_Revista() --> x eh revista
-F_Mulher() --> x eh mulher
-F_Tirinha() --> x eh tirinha
-F_Visao_Raio_x() --> x eh visao de raio x
-F_Possui(x, y) --> x possui y
-F_Sobre(x, y) -->x eh sobre y
-F_Japones() --> x eh japones
-F_Teatro_de_papel() --> xeh teatro de papel
-F_Uniforme() --> x eh uniforme
-F_Do_Inicio(x, y) --> x eh do inicio de y
-F_Quadrinho(x) --> x eh quadrinho
-F_Iconico(x) -->x eh iconico
-F_Estrou_durante(x, y) --> x estreou durante y
-F_Livro(x) --> x eh um livro
-F_Historia_de_super_heroi(x) --> x eh historia de super heroi
-F_Evolue_fora_do_tempo(x) --> x evolue fora do tempo
-F_Envelhece(x) --> x envelhece
-F_Vida_identica(x) --> x tem vida identica
-F_Super_poderes_consideraveis(x) --> x tem super poderes consideraveis
-F_Mundo(x) --> x eh um mundo
-F_Observa_em(x, y, z) --> x observa y em z
-F_Autor(x, y) --> x eh autor de y
-F_Equilibrio_do_Mundo(x, y) --> x eh o equilibrio do mundo de y
-F_Modifica_pouco(x, y) --> x modifica pouco y
-F_Rodeia(x, y) --> x rodeia y
-F_Fora_do_Mundo(x, y) --> x esta fora do mundo y
-F_Lugar(x) --> x eh um lugar
-F_Direito(x, y) --> x eh o direito sobre y
-F_Protecao(x, y) --> x eh a protecao de y
-F_Assidua(x, y, z) --> x eh assídua sobre y em(onde) z
-F_Jurisdicao(x, y) --> x está sob a jurisdição de y
-F_Companhia(x) --> x eh uma companhia
-F_Grupo(x) --> x eh um grupo
-F_Grupo_de_super_herois(x) --> x eh um grupo de superherois
-F_Produzida_em(x, y) --> x foi produzido no(a)(onde) y
-F_Serie(x) --> x eh uma serie
-F_Live_action(x) --> x eh uma live action
-F_Tokusatsu(x) --> x eh um Tokusatsu
-F_Base(x, y) --> x eh base de y
-F_Tornou_se_popular(x, y) --> x tornou-se popular em y
-F_Pais(x) --> x eh um pais
-F_Modelo(x) --> x eh um modelo
-F_Obra(x) --> x eh uma obra
-F_Eh_de_Super_heroi(x) --> x eh de super heroi
-F_Convencao(x) --> x eh uma convencao
-F_Modelo_americano(x) --> x eh um modelo americano
-F_Compartilha(x, y) --> x compartilha com y
-F_Fez_sucesso_em(x, y) --> x fez sucesso em y
-F_Eh(x, y) --> x eh y
-
-
 P(x, y) = x é algo de y
- ∃y ∀x
+∃y ∀x
+
+>> Inicio Conceitos
+
+F_Amazona(x) -> x eh uma amazona
+F_Arquetipo(x) --> x eh um arquehtipo
+F_Audiencia(x) --> x eh audiencia
+F_Bem(x) --> x eh bem
+F_Combate_ao_crime(x) --> x eh combate ao crime
+F_Companhia(x) --> x eh uma companhia
+F_Comunidade_legal(x) --> x faz parte da comunidade legal
+F_Convencao(x) --> x eh uma convencao
+F_Critico(x) --> x eh um critico
+F_Decada(x) --> na decada x
+F_Defesa_da_Bem(x) --> x eh defesa do paz
+F_Defesa_da_Paz(x) --> x eh defesa do paz
+F_Eh_de_Super_heroi(x) --> x eh de super heroi
+F_Envelhece(x) --> x envelhece
+F_Evolue_fora_do_tempo(x) --> x evolue fora do tempo
+F_Feminino(x) --> x eh feminino
+F_Fez_sucesso(x) --> x fez sucesso
+F_Ficticio(x) --> x eh ficticio
+F_Genero_de_ficcao_especulativa(x) --> x eh um genero de ficcao cientifica especulativa
+F_Grupo_de_super_herois(x) --> x eh um grupo de super herois
+F_Grupo(x) --> x eh um grupo
+F_Historia_de_super_heroi(x) --> x eh historia de super heroi
+F_Historias_de_super_aventura(x) --> x eh uma historia de super aventura
+F_Iconico(x) -->x eh iconico
+F_Japones(x) --> x eh japones
+F_Jovem(x) --> x eh jovem
+F_Limite_da_caricatura(x) --> x esta no limite da caricatura
+F_Live_action(x) --> x eh uma live action
+F_Livro(x) --> x eh um livro
+F_Lugar(x) --> x eh um lugar
+F_Mal(x) --> x eh mal
+F_Marca(x) --> x eh uma marca
+F_Modelo_americano(x) --> x eh um modelo americano
+F_Modelo(x) --> x eh um modelo
+F_Mulher(x) --> x eh mulher
+F_Mundo(x) --> x eh um mundo
+F_Obra(x) --> x eh uma obra
+F_Padrao_legal_para_a_protecao_marca_registrada_na_designação_distintiva_dos_Estados_Unidos_de_uma_unica__fonte_de_um_produto_ou_servico(x) --> x segue o padrao legal para a proteção de marca registrada na designação distintiva dos Estados Unidos de uma única fonte de um produto ou servico
+F_Pais(x) --> x eh um pais
+F_Palavra(x) --> x eh uma palavra
+F_Personagem(x) --> x eh um personagem
+F_Pessoa(x) --> x eh uma pessoa
+F_Psicologo(x) -> x eh psicologo
+F_Pulp(x) --> x eh do genero pulp
+F_Puramente_maniqueista(x) --> x eh puramente maniquista
+F_Quadrinho(x) --> x eh quadrinho
+F_Real(x) --> x é real
+F_Responsabilidade(x) --> x eh responsabilidade
+F_Revista(x) --> x eh revista
+F_Selo(x) --> x eh um selo
+F_Serie(x) --> x eh uma serie
+F_Simbolico(x) --> x eh simbolico
+F_Super_heroina(x) --> x eh Super_heroina
+F_Super_heroi(x) --> x eh um super-heroi
+F_Super_poderes_consideraveis(x) --> x tem super poderes consideraveis
+F_Super_poderes(x) --> x tem Super poderes
+F_Super_vilao(x) --> x eh um super vilao
+F_Teatro_de_papel(x) --> x eh teatro de papel
+F_Termo(x) --> x eh um termo
+F_Tirinha(x) --> x eh tirinha
+F_Tokusatsu(x) --> x eh um Tokusatsu
+F_Uniforme(x) --> x eh uniforme
+F_Varia_Muito(x) --> x varia muito
+F_Vida_identica(x) --> x tem vida identica
+F_Visao_Raio_x(x) --> x eh visao de raio x
+
+>> Fim Conceitos
+
+
+>> Inicio Propriedades
+
+F_Amante_Mutuo(x, y) -> x eh amante mutuo de y
+F_Autor(x, y) --> x eh autor de y
+F_Base(x, y) --> x eh base de y
+F_Casado(x, y) -> x eh casado com y
+F_Compartilha(x, y) --> x compartilha com y
+F_Conhecido(x, y) --> x eh conhecido como y
+F_Contesta(x, y) --> x contesta y
+F_Criou(x, y) -> x criou y
+F_Cumpre(x, y) --> x cumpre y
+F_Cunhado(x, y) --> x foi cunhado por y
+F_Definir(x, y) --> x define y
+F_Destinado(x, y) --> x eh destinado a y
+F_Direito(x, y) --> x eh o direito sobre y
+F_Do_Inicio(x, y) --> x eh do inicio de y
+F_Eh(x, y) --> x eh y
+F_Envolvido(x, y) --> x esta envolvido em y
+F_Equilibrio_do_Mundo(x, y) --> x eh o equilibrio do mundo de y
+F_Estrou_durante(x, y) --> x estreou durante y
+F_Faz_parte(x, y) --> x faz parte de y
+F_Fez_sucesso_em(x, y) --> x fez sucesso em y
+F_Fora_do_Mundo(x, y) --> x esta fora do mundo y
+F_Inspira_a_agir_melhor(x, y) --> x inspira y a agir melhor
+F_Inspirou(x, y) -> x inspirou y
+F_Jurisdicao(x, y) --> x está sob a jurisdição de y
+F_Modifica_pouco(x, y) --> x modifica pouco y
+F_Nova_versao(x, y) --> x eh nova versao de y
+F_Possui(x, y) --> x possui y
+F_Produzida_em(x, y) --> x foi produzido no(a)(onde) y
+F_Protagoniza(x, y) --> x protagoniza y
+F_Protecao(x, y) --> x eh a protecao de y
+F_Rodeia(x, y) --> x rodeia y
+F_Sobre(x, y) --> x eh sobre y
+F_Surgiu(x, y) --> x surgiu na data y
+F_Tomar_para_si(x, y) --> x toma y pra si
+F_Tornou_se_popular(x, y) --> x tornou-se popular em y
+F_Usado(x, y) --> x eh usado por y
+F_Usou(x, y) --> x usou y
+
+
+F_Lancou_na_data(x, y, z) --> x lancou y na data z
+F_Luta(x, y, z) --> x eh uma luta de y conta z
+F_Observa_em(x, y, z) --> x observa y em z
+F_Assidua(x, y, z) --> x eh assídua sobre y em(onde) z
+F_Ajudou(x, y, z) -> x ajudou y em z
+
+
+
+>> Fim Propriedades
+
+----------------------------------
+
+F_Historia(x) --> x eh uma historia
+F_Mangah(x) --> x eh um Mangah
+F_Genero(x) --> x eh um genero
+F_Sequencias_De_Transformacao(x) --> x eh uma sequencia de transformacao
+
+F_Escreveu(x, y, w) --> x escreveu y em w
+F_Existia_antes(x, y) --> x existia antes de y
+F_Apresentou(x, y) --> x apresentou y
+F_Elemento_basico(x, y) --> x eh um elemento basico y
+F_Tornou(x, y) --> x tornou-se y
+
+
+----------------------------------
+==================================
+----------------------------------
 
 
 
@@ -408,12 +447,29 @@ F_Destinado(z, t)
 --------------------------------------------------------------------------------
 
 
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
+
+
 --------------------------------------------------------------------------------
 O arquétipo do super-herói, no entanto, tem muitas variações.
 -- Conceitos:
+    -- F_Arquetipo
+    -- F_Super_heroi
+    -- F_Varia_Muito
 -- Indivíduos:
 -- Propriedades:
- ∃y ∀x
+    -- F_Possui
+
+∀y ∃x
+F_Super_heroi(y) ^
+F_Arquetipo(x) ^
+F_Possui(y, x) ^
+F_Varia_Muito(x)
+
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
@@ -426,7 +482,12 @@ Outros personagens incluem Green Hornet, Scarecrow of Romney Marsh e Spring Heel
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
-Da mesma forma, os heróis de ficção científica e John Carter, Buck Rogers e Flash Gordon, com as suas armas futuristas e gadgets; Tarzan, com o seu alto grau de capacidade atlética e força, e sua capacidade de se comunicar com os animais; Conan, o Bárbaro de Robert E. Howard e o biologicamente modificado Hugo Danner do romance Gladiator, foram heróis com habilidades incomuns que lutaram contra inimigos, às vezes maiores que a vida.
+Da mesma forma, os heróis de ficção científica e John Carter, Buck Rogers e
+Flash Gordon, com as suas armas futuristas e gadgets; Tarzan, com o seu alto
+grau de capacidade atlética e força, e sua capacidade de se comunicar com os
+animais; Conan, o Bárbaro de Robert E. Howard e o biologicamente modificado Hugo
+Danner do romance Gladiator, foram heróis com habilidades incomuns que lutaram
+contra inimigos, às vezes maiores que a vida.
 -- Conceitos:
 -- Indivíduos:
 -- Propriedades:
@@ -586,12 +647,32 @@ F_Do_Inicio(x, I_1930)
 --------------------------------------------------------------------------------
 
 
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
+
+
 --------------------------------------------------------------------------------
 Durante a década de 1940, haviam muitos super-heróis: Flash, Lanterna Verde e
 Besouro Azul estrearam nesta época.
 -- Conceitos:
+    -- F_Decada
 -- Indivíduos:
+    -- I_1940
+    -- I_Flash
+    -- I_Lanterna_Verde
+    -- I_Besouro_Azul
 -- Propriedades:
+    -- F_Estrou_durante
+
+
+F_Decada(I_1940) ^
+F_Estrou_durante(I_Flash, I_1940) ^
+F_Estrou_durante(I_Lanterna_Verde, I_1940)
+F_Estrou_durante(I_Besouro_Azul, I_1940) ^
+
  ∃y ∀x
 --------------------------------------------------------------------------------
 
@@ -610,7 +691,6 @@ Esta era viu a estreia da primeira super-heroína conhecida, Fantomah de Fletche
 -- Propriedades:
  ∃y ∀x
 --------------------------------------------------------------------------------
-
 
 
 mmmm  m    m
@@ -644,12 +724,47 @@ F_Faz_parte(I_Mulher_Maravilha, x) ^
 --------------------------------------------------------------------------------
 
 
+mmmm  m    m
+m"  "m #  m"
+#    # #m#
+#    # #  #m
+#mm#  #   "m
+
+
 --------------------------------------------------------------------------------
-Inspirado pelas amazonas da mitologia grega, ela foi criada pelo psicólogo William Moulton Marston, com ajuda e inspiração de sua esposa Elizabeth e seu amante mútua Olive Byrne.
+Inspirado pelas amazonas da mitologia grega, ela foi criada pelo psicólogo
+William Moulton Marston, com ajuda e inspiração de sua esposa Elizabeth e seu
+amante mútua Olive Byrne.
 -- Conceitos:
+    -- F_Amazona
+    -- F_Psicologo
 -- Indivíduos:
+    -- I_Mulher_Maravilha
+    -- I_Mitologia_Grega
+    -- I_William_Moulton_Marston
+    -- I_Elizabeth_Holloway_Marston
+    -- I_Olive_Byrne
 -- Propriedades:
-∃y ∀x
+    -- F_Criou
+    -- F_Inspirou
+    -- F_Ajudou
+    -- F_Faz_parte
+    -- F_Casado
+    -- F_Amante_Mutuo
+
+
+∃x
+F_Amazona(x) ^
+F_Faz_parte(x, I_Mitologia_Grega) ^
+F_Inspirou(x, I_William_Moulton_Marston) ^
+F_Psicologo(I_William_Moulton_Marston) ^
+F_Criou(I_William_Moulton_Marston, I_Mulher_Maravilha) ^
+F_Casado(I_William_Moulton_Marston, I_Elizabeth_Holloway_Marston) ^
+F_Amante_Mutuo(I_Olive_Byrne, I_Elizabeth_Holloway_Marston) ^
+F_Inspirou(I_Elizabeth_Holloway_Marston, I_William_Moulton_Marston) ^
+F_Inspirou(I_Olive_Byrne, I_William_Moulton_Marston) ^
+F_Ajudou(I_Elizabeth_Holloway_Marston, I_William_Moulton_Marston, I_Mulher_Maravilha) ^
+F_Ajudou(I_Olive_Byrne, I_William_Moulton_Marston, I_Mulher_Maravilha) ^
 --------------------------------------------------------------------------------
 
 
@@ -664,7 +779,9 @@ A primeira aparição da personagem foi em All Star Comics (dezembro de 1941), p
 
 --------------------------------------------------------------------------------
 
-Durante a Segunda Guerra Mundial, os super-heróis se tornaram ainda mais populares, sobrevivendo ao racionamento de papel e a perda de vários talentosos ilustradores que serviram nas forças armadas.
+Durante a Segunda Guerra Mundial, os super-heróis se tornaram ainda mais
+populares, sobrevivendo ao racionamento de papel e a perda de vários talentosos
+ilustradores que serviram nas forças armadas.
 -- Conceitos:
 -- Indivíduos:
 -- Propriedades:
@@ -675,7 +792,8 @@ Durante a Segunda Guerra Mundial, os super-heróis se tornaram ainda mais popula
 --------------------------------------------------------------------------------
 
 A busca de histórias simples de vitórias do bem sobre o mal que poderiam levar a
-consular ou parcialmente esquecer os horrores da guerra e do momento em que pode explicar a popularidade dos super-heróis em tempo de guerra.
+consular ou parcialmente esquecer os horrores da guerra e do momento em que pode
+explicar a popularidade dos super-heróis em tempo de guerra.
 -- Conceitos:
 -- Indivíduos:
 -- Propriedades:
@@ -684,7 +802,11 @@ consular ou parcialmente esquecer os horrores da guerra e do momento em que pode
 
 
 --------------------------------------------------------------------------------
-Nesta pesquisa dos leitores, os criadores dos quadrinhos responderam com histórias em que os super-heróis de combate as forças do Eixo e introduziram alguns heróis inspirados em temas patrióticos, incluindo o Capitão América da Timely Comics, que, juntamente com o Tocha Humana e Namor, mais de uma vez salvaram o mundo da ameaça do nazismo.
+Nesta pesquisa dos leitores, os criadores dos quadrinhos responderam com
+histórias em que os super-heróis de combate as forças do Eixo e introduziram
+alguns heróis inspirados em temas patrióticos, incluindo o Capitão América da
+Timely Comics, que, juntamente com o Tocha Humana e Namor, mais de uma vez
+salvaram o mundo da ameaça do nazismo.
 -- Conceitos:
 -- Indivíduos:
 -- Propriedades:
@@ -693,7 +815,8 @@ Nesta pesquisa dos leitores, os criadores dos quadrinhos responderam com histór
 
 
 --------------------------------------------------------------------------------
-Em 1952, o mangá Tetsuwan Atom de Osamu Tezuka (mais popularmente conhecido no Ocidente como Astro Boy) foi publicado.
+Em 1952, o mangá Tetsuwan Atom de Osamu Tezuka (mais popularmente conhecido no
+Ocidente como Astro Boy) foi publicado.
 -- Conceitos:
 -- Indivíduos:
 -- Propriedades:
@@ -939,8 +1062,36 @@ Go Nagai também escreveu o mangá Cutie Honey em 1973, embora o gênero garota
 mágica já existisse, o mangá de Nagai apresentou sequências de transformação que
 se tornariam um elemento básico do mesmo.
 -- Conceitos:
+    -- F_mangah
+    -- F_Genero
+    -- F_Sequencias_De_Transformacao
 -- Indivíduos:
+    -- I_Go_Nagai
+    -- I_Cutie_Honey
+    -- I_1973
+    -- I_Gartora_Magica
 -- Propriedades:
+    -- F_Escreveu
+    -- F_Existia_antes
+    -- F_Apresentou
+    -- F_Elemento_basico
+    -- F_Tornou
+
+
+
+
+F_mangah(I_Cutie_Honey) ^
+F_Escreveu(I_Go_Nagai, I_Cutie_Honey, I_1973) ^
+F_Genero(I_Gartora_Magica) ^
+F_Existia_antes(I_Gartora_Magica, I_1973) ^
+∃x
+F_Apresentou(I_Cutie_Honey, x) ^
+F_Sequencias_De_Transformacao(x) ^
+∃y
+F_Elemento_basico(y, I_Cutie_Honey) ^
+F_Tornou(x, y)
+
+
 ∃y ∀x
 --------------------------------------------------------------------------------
 
@@ -1090,9 +1241,11 @@ ser retratado como um super-herói.
 ∃y ∀x
 --------------------------------------------------------------------------------
 
-
+///
 --------------------------------------------------------------------------------
- Nos Estados Unidos, Pateta também foi dotado de uma identidade como um super-herói, o Superpateta, adquirindo poderes semelhantes aos de Superman ou Marvelman ao comer um tipo especial de amendoim.
+ Nos Estados Unidos, Pateta também foi dotado de uma identidade como um
+ super-herói, o Superpateta, adquirindo poderes semelhantes aos de Superman ou
+ Marvelman ao comer um tipo especial de amendoim.
 -- Conceitos:
 -- Indivíduos:
 -- Propriedades:
@@ -1262,7 +1415,7 @@ o padrão legal para a proteção de marca registrada na designação distintiva
     -- F_Marca
     -- F_Padrao_legal_para_a_protecao_marca_registrada_na_designação_distintiva_dos_Estados_Unidos_de_uma_unica__fonte_de_um_produto_ou_servico
 -- Indivíduos:
-    -- I_Super Hero
+    -- I_Super_Hero
 -- Propriedades:
     -- F_Cumprir
     -- F_Contestar
@@ -1313,7 +1466,6 @@ m"  "m #  m"
 #mm#  #   "m
 
 
-
 --------------------------------------------------------------------------------
 America's Best Comics, originalmente parte do selo Wildstorm, usou o termo
 science hero, cunhado por Alan Moore.
@@ -1322,20 +1474,20 @@ science hero, cunhado por Alan Moore.
     -- F_Termo
     -- F_Pessoa
 -- Indivíduos:
-    -- I_America's Best Comics
+    -- I_America's_Best_Comics
     -- I_Wildstorm
-    -- I_Alan Moore
-    -- I_Science hero
+    -- I_Alan_Moore
+    -- I_Science_hero
 -- Propriedades:
     -- F_Faz_parte
     -- F_Usou
     -- F_Cunhado
 
 F_Selo(I_Wildstorm)^
-F_Selo(I_America's Best Comics)^
-F_Pessoa(I_Alan Moore)^
-F_Termo(I_Science hero)^
-F_Faz_parte(I_America's Best Comics, I_Wildstorm) ^
-F_Usou(I_America's Best Comics, I_Science hero) ^
-F_Cunhado(I_Science hero, I_Alan Moore)
+F_Selo(I_America's_Best_Comics)^
+F_Pessoa(I_I_Alan_Mooree)^
+F_Termo(I_Science_hero)^
+F_Faz_parte(I_America's_Best_Comics, I_Wildstorm) ^
+F_Usou(I_America's_Best_Comics, I_Science_hero) ^
+F_Cunhado(I_Science_hero, I_Alan_Moore)
 --------------------------------------------------------------------------------
