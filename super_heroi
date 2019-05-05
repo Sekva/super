@@ -84,7 +84,7 @@ F_Contesta(x, y) --> x contesta y
 F_Criou(x, y) -> x criou y
 F_Cumpre(x, y) --> x cumpre y
 F_Cunhado(x, y) --> x foi cunhado por y
-F_Definir(x, y) --> x define y
+F_Define(x, y) --> x define y
 F_Destinado(x, y) --> x eh destinado a y
 F_Direito(x, y) --> x eh o direito sobre y
 F_Do_Inicio(x, y) --> x eh do inicio de y
@@ -112,12 +112,44 @@ F_Tornou_se_popular(x, y) --> x tornou-se popular em y
 F_Usado(x, y) --> x eh usado por y
 F_Usou(x, y) --> x usou y
 
-
+----------------------------------
 F_Lancou_na_data(x, y, z) --> x lancou y na data z
+----------------------------------
+F_Lancou_na_data(x, z) --> x lancou na data z
+F_Lancou(x, y) --> x lancou y
+----------------------------------
+
+
+----------------------------------
 F_Luta(x, y, z) --> x eh uma luta de y conta z
+----------------------------------
+F_Luta_de(x, y) --> x eh uma luta de y
+F_Luta_contra(y, z) --> y eh uma luta contra z
+----------------------------------
+
+
+----------------------------------
 F_Observa_em(x, y, z) --> x observa y em z
+----------------------------------
+F_Observa(x, y) --> x observa y
+F_Observado_em(y, z) --> y foi observado em z
+----------------------------------
+
+
+----------------------------------
 F_Assidua(x, y, z) --> x eh assídua sobre y em(onde) z
+----------------------------------
+F_Assidua(x, y) --> x eh assídua sobre y
+F_Assidua_em(x, z) --> x foi assídua em(onde) z
+----------------------------------
+
+
+----------------------------------
 F_Ajudou(x, y, z) -> x ajudou y em z
+----------------------------------
+F_Ajudou(x, y) --> x ajudou y
+F_Ajudado_em(y, z) --> y foi ajudado em z
+----------------------------------
 
 
 
@@ -149,7 +181,7 @@ m"  "m #  m"
 #    # #  #m
 #mm#  #   "m
 
-
+//FOI
 --------------------------------------------------------------------------------
 Um super-herói é um personagem fictício.
 -- Conceitos:
@@ -180,17 +212,17 @@ ficção especulativa marcado também pelos super-vilões.
 -- Indivíduos:
 -- Propriedades:
     -- F_Protagoniza
-    -- F_Definir
+    -- F_Define
     -- F_Faz parte
 
 ∀x
-Super_heroi(x) ^
+F_Super_heroi(x) ^
 ∀y
-Historias_de_super_aventura(y) ^ Protagoniza(x, y) ^
+F_Historias_de_super_aventura(y) ^ F_Protagoniza(x, y) ^
 ∃w
-Genero_de_ficcao_especulativa(w) ^ Faz_parte(y, w) ^
+F_Genero_de_ficcao_especulativa(w) ^ F_Faz_parte(y, w) ^
 ∃z
-Super_vilao(z) ^ Define(z, y)
+F_Super_vilao(z) ^ F_Define(z, y)
 --------------------------------------------------------------------------------
 
 
@@ -299,7 +331,8 @@ F_Responsabilidade(t) ^
 F_Tomar_para_si(x, t) ^
 F_Bem(k) ^
 F_mal(l) ^
-F_Luta(g, k, l) ^
+F_Luta_de(g, k) ^
+F_Luta_contra(k, z) ^
 F_Protagoniza(x, g)
 --------------------------------------------------------------------------------
 
@@ -372,7 +405,7 @@ equilíbrio do mundo que os rodeia do que se poderia acreditar.
     -- F_Super_poderes_consideraveis
     -- F_Mundo
 -- Indivíduos:
-    -- I_De_Superman_au_Surhomme
+    -- I_De_Superman_au_Surhomme //FOI
     -- I_Uberto_Eco
 -- Propriedades:
     -- F_Observa_em
@@ -383,10 +416,11 @@ equilíbrio do mundo que os rodeia do que se poderia acreditar.
     -- F_Rodeia
     -- F_Fora_do_Mundo
 
-F_Livro(I_De_Superman_au_Surhomme) ^
+F_Livro(I_De_Superman_au_Surhomme) ^ //FOI
 F_Autor(I_Uberto_Eco, I_De_Superman_au_Surhomme) ^
 ∃x
-F_Observa(I_Uberto_Eco, x, I_De_Superman_au_Surhomme) ^
+F_Observa(I_Uberto_Eco, x) ^
+F_Observado_em(x, I_De_Superman_au_Surhomme) ^
 F_Historia(x) ^
 F_Historia_de_super_heroi(x) ^
 F_Evolue_fora_do_tempo(x) ^
@@ -509,12 +543,13 @@ A palavra "super-herói" teria surgido em 1917.
 -- Conceitos:
     -- F_Palavra
 -- Indivíduos:
-    -- I_Palavra_Super_Heroi
+    -- I_Palavra_Super_Heroi //FOI
     -- I_1917
 -- Propriedades:
     -- F_Surgiu
 
-F_Palavra(I_Palavra_Super_Heroi) ^ F_Surgiu(I_Palavra_Super_Heroi, I_1917)
+F_Palavra(I_Palavra_Super_Heroi) ^ //FOI
+F_Surgiu(I_Palavra_Super_Heroi, I_1917) //FOI
 --------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------
@@ -565,9 +600,9 @@ a tira da personagem Olga Mesmer sobre uma mulher que possuía visão de raio x.
     -- F_Tirinha
     -- F_Visao_Raio_x
 -- Indivíduos:
-    -- I_Spicy_Mystery_Stories
+    -- I_Spicy_Mystery_Stories //FOI
     -- I_1937
-    -- I_Olga_Mesmer
+    -- I_Olga_Mesmer //FOI
 -- Propriedades:
     -- F_Surgiu
     -- F_Possui
@@ -575,13 +610,13 @@ a tira da personagem Olga Mesmer sobre uma mulher que possuía visão de raio x.
     -- F_Faz_parte
 
 ∃x ∃y
-F_Surgiu(I_Spicy_Mystery_Stories, I_1937) ^
-F_Revista(I_Spicy_Mystery_Stories) ^
-F_Pulp(I_Spicy_Mystery_Stories) ^
+F_Surgiu(I_Spicy_Mystery_Stories, I_1937) ^ //FOI
+F_Revista(I_Spicy_Mystery_Stories) ^ //FOI
+F_Pulp(I_Spicy_Mystery_Stories) ^ //FOI
 F_Tirinha(x) ^
-F_Personagem(I_Olga_Mesmer) ^
+F_Personagem(I_Olga_Mesmer) ^ //FOI
 F_Sobre(x, I_Olga_Mesmer)
-F_Mulher(I_Olga_Mesmer) ^
+F_Mulher(I_Olga_Mesmer) ^ //FOI
 F_Possui(I_Olga_Mesmer, y) ^
 F_Visao_Raio_x(y) ^
 
@@ -618,9 +653,9 @@ década de 1930.
     -- F_Uniforme
     -- F_Super_poderes
 -- Indivíduos:
-    -- I_Kamishibais
-    -- I_Ōgon_Bat
-    -- I_Princípe_Gamma
+    -- I_Kamishibais //FOI
+    -- I_Ōgon_Bat //FOI
+    -- I_Princípe_Gamma //FOI
     -- I_1930
 -- Propriedades:
     -- F_Do_Inicio
@@ -631,13 +666,13 @@ década de 1930.
 F_Personagem(x) ^
 F_Japones(x) ^
 F_Faz_parte(x, I_Kamishibais) ^
-F_Teatro_de_papel(I_Kamishibais) ^
-F_Personagem(I_Ōgon_Bat) ^
-F_Japones(I_Ōgon_Bat) ^
-F_Faz_parte(I_Ōgon_Bat, I_Kamishibais) ^
-F_Personagem(I_Princípe_Gamma) ^
-F_Japones(I_Princípe_Gamma) ^
-F_Faz_parte(I_Princípe_Gamma, I_Kamishibais) ^
+F_Teatro_de_papel(I_Kamishibais) ^ //FOI
+F_Personagem(I_Ōgon_Bat) ^ //FOI
+F_Japones(I_Ōgon_Bat) ^ //FOI
+F_Faz_parte(I_Ōgon_Bat, I_Kamishibais) ^ //FOI
+F_Personagem(I_Princípe_Gamma) ^ //FOI
+F_Japones(I_Princípe_Gamma) ^ //FOI
+F_Faz_parte(I_Princípe_Gamma, I_Kamishibais) ^ //FOI
 ∃y ∃z
 F_Uniforme(y) ^
 F_Super_poderes(z) ^
@@ -660,18 +695,20 @@ Besouro Azul estrearam nesta época.
 -- Conceitos:
     -- F_Decada
 -- Indivíduos:
-    -- I_1940
-    -- I_Flash
-    -- I_Lanterna_Verde
-    -- I_Besouro_Azul
+    -- I_1940 //FOI
+    -- I_Flash //FOI
+    -- I_Lanterna_Verde //FOI
+    -- I_Besouro_Azul //FOI
 -- Propriedades:
     -- F_Estrou_durante
 
-
-F_Decada(I_1940) ^
-F_Estrou_durante(I_Flash, I_1940) ^
-F_Estrou_durante(I_Lanterna_Verde, I_1940)
-F_Estrou_durante(I_Besouro_Azul, I_1940) ^
+F_Decada(I_1940) ^ //FOI
+F_Super_heroi(I_Flash) ^ //FOI
+F_Super_heroi(I_Lanterna_Verde) ^ //FOI
+F_Super_heroi(I_Besouro_Azul) ^ //FOI
+F_Estrou_durante(I_Flash, I_1940) ^ //FOI
+F_Estrou_durante(I_Lanterna_Verde, I_1940) ^ //FOI
+F_Estrou_durante(I_Besouro_Azul, I_1940) //FOI
 
  ∃y ∀x
 --------------------------------------------------------------------------------
@@ -709,16 +746,16 @@ A super-heroína da quadrinhos mais icônica, que estreou durante a Era de Ouro,
     -- F_Iconico
 -- Indivíduos:
     -- I_Era_de_Ouro
-    -- I_Mulher_Maravilha
+    -- I_Mulher_Maravilha //FOI
 -- Propriedades:
     -- F_Estrou_durante
     -- F_Faz_parte
 
 ∃x
 F_Quadrinho(x) ^
-F_Estrou_durante(I_Mulher_Maravilha, I_Era_de_Ouro)
-F_Super_heroina(I_Mulher_Maravilha) ^
-F_Iconico(I_Mulher_Maravilha) ^
+F_Estrou_durante(I_Mulher_Maravilha, I_Era_de_Ouro) //FOI
+F_Super_heroina(I_Mulher_Maravilha) ^ //FOI
+F_Iconico(I_Mulher_Maravilha) ^ //FOI
 F_Faz_parte(I_Mulher_Maravilha, x) ^
 
 --------------------------------------------------------------------------------
@@ -741,7 +778,7 @@ amante mútua Olive Byrne.
 -- Indivíduos:
     -- I_Mulher_Maravilha
     -- I_Mitologia_Grega
-    -- I_William_Moulton_Marston
+    -- I_William_Moulton_Marston //FOI
     -- I_Elizabeth_Holloway_Marston
     -- I_Olive_Byrne
 -- Propriedades:
@@ -757,14 +794,18 @@ amante mútua Olive Byrne.
 F_Amazona(x) ^
 F_Faz_parte(x, I_Mitologia_Grega) ^
 F_Inspirou(x, I_William_Moulton_Marston) ^
-F_Psicologo(I_William_Moulton_Marston) ^
-F_Criou(I_William_Moulton_Marston, I_Mulher_Maravilha) ^
-F_Casado(I_William_Moulton_Marston, I_Elizabeth_Holloway_Marston) ^
-F_Amante_Mutuo(I_Olive_Byrne, I_Elizabeth_Holloway_Marston) ^
-F_Inspirou(I_Elizabeth_Holloway_Marston, I_William_Moulton_Marston) ^
-F_Inspirou(I_Olive_Byrne, I_William_Moulton_Marston) ^
-F_Ajudou(I_Elizabeth_Holloway_Marston, I_William_Moulton_Marston, I_Mulher_Maravilha) ^
-F_Ajudou(I_Olive_Byrne, I_William_Moulton_Marston, I_Mulher_Maravilha) ^
+F_Psicologo(I_William_Moulton_Marston) ^ //FOI
+F_Criou(I_William_Moulton_Marston, I_Mulher_Maravilha) ^ //FOI
+F_Casado(I_William_Moulton_Marston, I_Elizabeth_Holloway_Marston) ^ //FOI
+F_Amante_Mutuo(I_Olive_Byrne, I_Elizabeth_Holloway_Marston) ^ //FOI
+F_Inspirou(I_Elizabeth_Holloway_Marston, I_William_Moulton_Marston) ^ //FOI
+F_Inspirou(I_Olive_Byrne, I_William_Moulton_Marston) ^ //FOI
+F_Ajudou(I_Elizabeth_Holloway_Marston, I_William_Moulton_Marston) ^ //FOI
+F_Ajudou(I_Olive_Byrne, I_William_Moulton_Marston) ^ //FOI
+F_Ajudado_em(I_William_Moulton_Marston, I_Mulher_Maravilha) //FOI
+
+
+
 --------------------------------------------------------------------------------
 
 
@@ -895,7 +936,6 @@ m"  "m #  m"
 --------------------------------------------------------------------------------
 Em 1956 a DC Comics lançou uma nova versão do Flash, que foi um sucesso imediato.
 -- Conceitos:
-    -- F_Lancou_na_data
     -- F_Nova_versao
     -- F_Fez_sucesso
 -- Indivíduos:
@@ -903,9 +943,13 @@ Em 1956 a DC Comics lançou uma nova versão do Flash, que foi um sucesso imedia
     -- I_DC_Comics
     -- I_1956
 -- Propriedades:
+  -- F_Lancou_na_data
 
-
-∃x  F_Nova_versao(x, I_Flash) ^ F_Lancou_na_data(I_DC_Comics, x, I_1956) ^ F_Fez_sucesso(x)
+∃x
+F_Nova_versao(x, I_Flash) ^
+F_Lancou(I_DC_Comics, x) ^
+F_Lancou_na_data(x, I_1956) ^
+F_Fez_sucesso(x)
 --------------------------------------------------------------------------------
 
 
@@ -1062,14 +1106,14 @@ Go Nagai também escreveu o mangá Cutie Honey em 1973, embora o gênero garota
 mágica já existisse, o mangá de Nagai apresentou sequências de transformação que
 se tornariam um elemento básico do mesmo.
 -- Conceitos:
-    -- F_mangah
+    -- F_Mangah
     -- F_Genero
     -- F_Sequencias_De_Transformacao
 -- Indivíduos:
     -- I_Go_Nagai
-    -- I_Cutie_Honey
+    -- I_Cutie_Honey //FOI
     -- I_1973
-    -- I_Gartora_Magica
+    -- I_Gartora_Magica //FOI
 -- Propriedades:
     -- F_Escreveu
     -- F_Existia_antes
@@ -1080,10 +1124,10 @@ se tornariam um elemento básico do mesmo.
 
 
 
-F_mangah(I_Cutie_Honey) ^
-F_Escreveu(I_Go_Nagai, I_Cutie_Honey, I_1973) ^
-F_Genero(I_Gartora_Magica) ^
-F_Existia_antes(I_Gartora_Magica, I_1973) ^
+F_Mangah(I_Cutie_Honey) ^ //FOI
+F_Escreveu(I_Go_Nagai, I_Cutie_Honey, I_1973) ^ //CONSERTAR
+F_Genero(I_Gartora_Magica) ^ //FOI
+F_Existia_antes(I_Gartora_Magica, I_1973) ^ //FOI
 ∃x
 F_Apresentou(I_Cutie_Honey, x) ^
 F_Sequencias_De_Transformacao(x) ^
@@ -1158,6 +1202,7 @@ tokusatsus.
     -- F_Live_action
     -- F_Tokusatsu
 -- Indivíduos:
+    //FALAR QUE É UM Tokusatsu?
     -- I_Ultraman
     -- I_Kamen_Rider
     -- I_Super_Sentai
@@ -1169,7 +1214,7 @@ tokusatsus.
     -- F_Tornou_se_popular
 
 
-F_Base(I_Super_Sentai, I_Power_Rangers) ^
+F_Base(I_Super_Sentai, I_Power_Rangers) ^ //FOI
 
 ∃x
 F_Tornou_se_popular(I_Ultraman, x) ^
@@ -1273,23 +1318,23 @@ produzidas no Brasil (Clube dos Heróis) e na Itália (Ultra-Heróis).
     -- I_Superpato
     -- I_Superpata
     -- I_Brasil
-    -- I_Clube_dos_Herois
+    -- I_Clube_dos_Herois //FOI
     -- I_Italia
-    -- I_Ultra_Herois
+    -- I_Ultra_Herois //FOI
 -- Propriedades:
     -- F_Produzida_em
     -- F_Faz_parte (Integra)
 
 
-F_Grupo(I_Clube_dos_Herois) ^
-F_Grupo_de_super_herois(I_Clube_dos_Herois) ^
-F_Faz_parte(I_Superpato, I_Clube_dos_Herois) ^
-F_Faz_parte(I_Superpata, I_Clube_dos_Herois) ^
+F_Grupo(I_Clube_dos_Herois) ^ //FOI
+F_Grupo_de_super_herois(I_Clube_dos_Herois) ^ //FOI
+F_Faz_parte(I_Superpato, I_Clube_dos_Herois) ^ //FOI
+F_Faz_parte(I_Superpata, I_Clube_dos_Herois) ^ //FOI
 
-F_Grupo(I_Ultra_Herois) ^
-F_Grupo_de_super_herois(I_Ultra_Herois) ^
-F_Faz_parte(I_Superpato, I_Ultra_Herois) ^
-F_Faz_parte(I_Superpata, I_Ultra_Herois) ^
+F_Grupo(I_Ultra_Herois) ^ //FOI
+F_Grupo_de_super_herois(I_Ultra_Herois) ^ //FOI
+F_Faz_parte(I_Superpato, I_Ultra_Herois) ^ //FOI
+F_Faz_parte(I_Superpata, I_Ultra_Herois) ^ //FOI
 
 ∃x ∃y
 F_Historia(x) ^
@@ -1328,14 +1373,14 @@ Outras companhias tem utilizado termos como Superhero ou super-hero (com hífen)
     -- F_Companhia
     -- F_Termo
 -- Indivíduos:
-    -- I_Termo_Superhero
-    -- I_Termo_super-hero
+    -- I_Termo_Superhero  //FOI
+    -- I_Termo_super-hero  //FOI
 -- Propriedades:
     -- F_Usou
 
 
-F_Termo(I_Termo_super-hero) ^
-F_Termo(I_Termo_Superhero) ^
+F_Termo(I_Termo_super-hero) ^  //FOI
+F_Termo(I_Termo_Superhero) ^  //FOI
 ∃x
 F_Companhia(x) ^
 ( F_Usou(x, I_Termo_Superhero) v F_Usou(x, I_Termo_super-hero) )
@@ -1362,10 +1407,10 @@ Estados Unidos, Reino Unido e Austrália.
 -- Indivíduos:
     -- I_DC_Comics
     -- I_Marvel_Comics
-    -- I_Marca_Super_Hero
-    -- I_Reino_Unido
-    -- I_Australia
-    -- I_Estados_Unidos
+    -- I_Marca_Super_Hero //FOI
+    -- I_Reino_Unido  //FOI
+    -- I_Australia  //FOI
+    -- I_Estados_Unidos  //FOI
 -- Propriedades:
     -- F_Direito
     -- F_Protecao
@@ -1378,9 +1423,9 @@ Estados Unidos, Reino Unido e Austrália.
 F_Direito(y, I_Marca_Super_Hero) ^
 F_Protecao(x, y) ^
 
-F_Lugar(I_Australia) ^
-F_Lugar(I_Reino_Unido) ^
-F_Lugar(I_Estados_Unidos) ^
+F_Lugar(I_Australia) ^  //FOI
+F_Lugar(I_Reino_Unido) ^  //FOI
+F_Lugar(I_Estados_Unidos) ^  //FOI
 
 F_Jurisdicao(x, I_Australia) ^
 F_Jurisdicao(x, I_Reino_Unido) ^
@@ -1388,9 +1433,11 @@ F_Jurisdicao(x, I_Estados_Unidos) ^
 
 F_Lugar(z) ^
 (F_Jurisdicao(x, z) -> (
-    F_Assidua(I_DC_Comics, x, z) ^
-    F_Assidua(I_Marvel_Comics, x, z) ^
-    F_Marca(I_Marca_Super_Hero)
+    F_Assidua(I_DC_Comics, y) ^
+    F_Assidua_em(I_DC_Comics, z) ^
+    F_Assidua(I_Marvel_Comics, y) ^
+    F_Assidua_em(I_Marvel_Comics, z) ^
+    F_Marca(I_Marca_Super_Hero) //FOI
 ))
 
 ∃y ∀x
@@ -1415,13 +1462,17 @@ o padrão legal para a proteção de marca registrada na designação distintiva
     -- F_Marca
     -- F_Padrao_legal_para_a_protecao_marca_registrada_na_designação_distintiva_dos_Estados_Unidos_de_uma_unica__fonte_de_um_produto_ou_servico
 -- Indivíduos:
-    -- I_Super_Hero
+    -- I_Super_Hero //FOI
 -- Propriedades:
     -- F_Cumprir
     -- F_Contestar
 
-Marca(SuperHero)^
-∀x Critico(x) ^ Comunidade_legal(x) ^ Contestar(x, Super Hero) ^ ∃y Padrao_legal_para_a_protecao_marca_registrada_na_designação_distintiva_dos_Estados_Unidos_de_uma_unica__fonte_de_um_produto_ou_servico(y) ^ Cumprir(Super Hero, y)
+Marca(SuperHero)^ //FOI
+∀x Critico(x) ^
+Comunidade_legal(x) ^
+Contestar(x, Super Hero) ^
+∃y Padrao_legal_para_a_protecao_marca_registrada_na_designação_distintiva_dos_Estados_Unidos_de_uma_unica__fonte_de_um_produto_ou_servico(y) ^
+Cumprir(Super Hero, y)
 --------------------------------------------------------------------------------
 
 
@@ -1465,7 +1516,7 @@ m"  "m #  m"
 #    # #  #m
 #mm#  #   "m
 
-
+//FOI
 --------------------------------------------------------------------------------
 America's Best Comics, originalmente parte do selo Wildstorm, usou o termo
 science hero, cunhado por Alan Moore.
@@ -1474,20 +1525,20 @@ science hero, cunhado por Alan Moore.
     -- F_Termo
     -- F_Pessoa
 -- Indivíduos:
-    -- I_America's_Best_Comics
-    -- I_Wildstorm
-    -- I_Alan_Moore
-    -- I_Science_hero
+    -- I_America's_Best_Comics //FOI
+    -- I_Wildstorm //FOI
+    -- I_Alan_Moore //FOI
+    -- I_Science_hero //FOI
 -- Propriedades:
     -- F_Faz_parte
     -- F_Usou
     -- F_Cunhado
 
-F_Selo(I_Wildstorm)^
-F_Selo(I_America's_Best_Comics)^
-F_Pessoa(I_I_Alan_Mooree)^
-F_Termo(I_Science_hero)^
-F_Faz_parte(I_America's_Best_Comics, I_Wildstorm) ^
-F_Usou(I_America's_Best_Comics, I_Science_hero) ^
-F_Cunhado(I_Science_hero, I_Alan_Moore)
+F_Selo(I_Wildstorm)^ //FOI
+F_Selo(I_America's_Best_Comics)^ //FOI
+F_Pessoa(I_Alan_Moore)^ //FOI
+F_Termo(I_Science_hero)^ //FOI
+F_Faz_parte(I_America's_Best_Comics, I_Wildstorm) ^ //FOI
+F_Usou(I_America's_Best_Comics, I_Science_hero) ^ //FOI
+F_Cunhado(I_Science_hero, I_Alan_Moore) //FOI
 --------------------------------------------------------------------------------

@@ -1,0 +1,1238 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-7="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Ajudado_em -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Ajudado_em">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Ajudou -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Ajudou">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Amante_Mutuo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Amante_Mutuo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Assidua -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Assidua">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Assidua_em -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Assidua_em">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Autor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Autor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Base -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Base">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Casado -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Casado">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Compartilha -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Compartilha">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Conhecido -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Conhecido">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Contesta -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Contesta">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Criou -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Criou">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Cumpre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Cumpre">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Cunhado -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Cunhado">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Define -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Define">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Destinado -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Destinado">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Direito -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Direito">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Do_Inicio -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Do_Inicio">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Eh -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Eh">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Envolvido -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Envolvido">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Equilibrio_do_Mundo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Equilibrio_do_Mundo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Estrou_durante -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Estrou_durante">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Existia_antes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Existia_antes">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Faz_parte -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Faz_parte">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Fez_sucesso_em -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Fez_sucesso_em">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Fora_do_Mundo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Fora_do_Mundo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Inspira_a_agir_melhor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Inspira_a_agir_melhor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Inspirou -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Inspirou">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Jurisdicao -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Jurisdicao">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Lancou -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Lancou">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Lancou_na_data -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Lancou_na_data">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Luta_contra -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Luta_contra">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Luta_de -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Luta_de">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Modifica_pouco -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Modifica_pouco">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Nova_versao -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Nova_versao">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Observa -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Observa">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Observado_em -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Observado_em">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Possui -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Possui">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Produzida_em -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Produzida_em">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Protagoniza -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Protagoniza">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Protecao -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Protecao">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Rodeia -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Rodeia">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Sobre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Sobre">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Surgiu -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Surgiu">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Tomar_para_si -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Tomar_para_si">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Tornou_se_popular -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Tornou_se_popular">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Usado -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Usado">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Usou -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Usou">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Amazona -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Amazona"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Arquetipo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Arquetipo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Audiencia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Audiencia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Bem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Bem"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Combate_ao_crime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Combate_ao_crime"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Companhia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Companhia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Comunidade_legal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Comunidade_legal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Convencao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Convencao"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Critico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Critico"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Decada -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Decada"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Defesa_da_Bem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Defesa_da_Bem"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Defesa_da_Paz -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Defesa_da_Paz"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Eh_de_Super_heroi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Eh_de_Super_heroi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Envelhece -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Envelhece"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Evolue_fora_do_tempo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Evolue_fora_do_tempo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Feminino -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Feminino"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Fez_sucesso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Fez_sucesso"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Ficticio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Ficticio"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Genero -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Genero"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Genero_de_ficcao_especulativa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Genero_de_ficcao_especulativa"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Grupo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Grupo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Grupo_de_super_herois -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Grupo_de_super_herois"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Historia_de_super_heroi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Historia_de_super_heroi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Historias_de_super_aventura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Historias_de_super_aventura"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Iconico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Iconico"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Japones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Japones"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Jovem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Jovem"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Limite_da_caricatura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Limite_da_caricatura"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Live_action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Live_action"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Livro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Livro"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Lugar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Lugar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Mal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Mal"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Mangah -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Mangah"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Marca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Marca"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Modelo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Modelo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Modelo_americano -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Modelo_americano"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Mulher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Mulher"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Mundo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Mundo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Obra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Obra"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Padrao_legal_para_a_protecao_marca_registrada_na_designação_distintiva_dos_Estados_Unidos_de_uma_unica__fonte_de_um_produto_ou_servico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Padrao_legal_para_a_protecao_marca_registrada_na_designação_distintiva_dos_Estados_Unidos_de_uma_unica__fonte_de_um_produto_ou_servico"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Pais -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Pais"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Palavra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Palavra"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Personagem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Personagem"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Pessoa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Pessoa"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Psicologo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Psicologo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Pulp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Pulp"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Puramente_maniqueista -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Puramente_maniqueista"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Quadrinho -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Quadrinho"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Real -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Real"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Responsabilidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Responsabilidade"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Revista -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Revista"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Selo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Selo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Serie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Serie"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Simbolico -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Simbolico"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Super_heroi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Super_heroi">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Ficticio"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Personagem"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Super_heroina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Super_heroina"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Super_poderes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Super_poderes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Super_poderes_consideraveis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Super_poderes_consideraveis"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Super_vilao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Super_vilao"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Teatro_de_papel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Teatro_de_papel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Termo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Termo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Tokusatsu -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Tokusatsu"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Varia_Muito -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Varia_Muito"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Vida_identica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Vida_identica"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_1917 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_1917"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_1930 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_1930"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_1937 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_1937"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_1940 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_1940">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Decada"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_1956 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_1956"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_1973 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_1973"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Alan_Moore -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Alan_Moore">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Pessoa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Australia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Australia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Lugar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Besouro_Azul -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Besouro_Azul">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Super_heroi"/>
+        <Estrou_durante rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_1940"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Brasil -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Brasil"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Clube_dos_Herois -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Clube_dos_Herois">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Grupo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Grupo_de_super_herois"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Cutie_Honey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Cutie_Honey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Mangah"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_DC_Comics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_DC_Comics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_De_Superman_au_Surhomme -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_De_Superman_au_Surhomme">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Livro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Elizabeth_Holloway_Marston -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Elizabeth_Holloway_Marston">
+        <Ajudou rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_William_Moulton_Marston"/>
+        <Inspirou rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_William_Moulton_Marston"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Era_de_Ouro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Era_de_Ouro"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Estados_Unidos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Estados_Unidos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Lugar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Flash -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Flash">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Super_heroi"/>
+        <Estrou_durante rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_1940"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Gartora_Magica -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Gartora_Magica">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Genero"/>
+        <Existia_antes rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_1973"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Go_Nagai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Go_Nagai"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Italia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Italia"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Kamen_Rider -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Kamen_Rider"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Kamishibais -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Kamishibais">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Teatro_de_papel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Kikairider -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Kikairider"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Lanterna_Verde -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Lanterna_Verde">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Super_heroi"/>
+        <Estrou_durante rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_1940"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Marca_Super_Hero -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Marca_Super_Hero">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Marca"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Super_Hero"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Marvel_Comics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Marvel_Comics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Metal_Hero -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Metal_Hero"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Mitologia_Grega -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Mitologia_Grega"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Mulher_Maravilha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Mulher_Maravilha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Iconico"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Super_heroina"/>
+        <Estrou_durante rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Era_de_Ouro"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Olga_Mesmer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Olga_Mesmer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Mulher"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Personagem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Olive_Byrne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Olive_Byrne">
+        <Ajudou rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_William_Moulton_Marston"/>
+        <Amante_Mutuo rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Elizabeth_Holloway_Marston"/>
+        <Inspirou rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_William_Moulton_Marston"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Palavra_Super_Heroi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Palavra_Super_Heroi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Palavra"/>
+        <Surgiu rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_1917"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Power_Rangers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Power_Rangers"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Princípe_Gamma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Princípe_Gamma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Japones"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Personagem"/>
+        <Faz_parte rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Kamishibais"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Reino_Unido -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Reino_Unido">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Lugar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Science_hero -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Science_hero">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Termo"/>
+        <Cunhado rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Alan_Moore"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Spicy_Mystery_Stories -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Spicy_Mystery_Stories">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Pulp"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Revista"/>
+        <Surgiu rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_1937"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Super_Hero -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Super_Hero">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Marca"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Super_Sentai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Super_Sentai">
+        <Base rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Power_Rangers"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Superpata -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Superpata">
+        <Faz_parte rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Clube_dos_Herois"/>
+        <Faz_parte rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Ultra_Herois"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Superpato -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Superpato">
+        <Faz_parte rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Clube_dos_Herois"/>
+        <Faz_parte rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Ultra_Herois"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Termo_Superhero -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Termo_Superhero">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Termo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Termo_super-hero -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Termo_super-hero">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Termo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_The_Spirit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_The_Spirit"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Uberto_Eco -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Uberto_Eco"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Ultra_Herois -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Ultra_Herois">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Grupo"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Grupo_de_super_herois"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Ultraman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Ultraman"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Wildstorm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Wildstorm">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Selo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Will_Eisner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Will_Eisner"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_William_Moulton_Marston -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_William_Moulton_Marston">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Psicologo"/>
+        <Ajudado_em rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Mulher_Maravilha"/>
+        <Casado rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Elizabeth_Holloway_Marston"/>
+        <Criou rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Mulher_Maravilha"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Ōgon_Bat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Ōgon_Bat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Japones"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Personagem"/>
+        <Faz_parte rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Kamishibais"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_America&apos;s_Best_Comics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_America&apos;s_Best_Comics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Selo"/>
+        <Faz_parte rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Wildstorm"/>
+        <Usou rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Science_hero"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
