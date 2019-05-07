@@ -437,13 +437,27 @@
 
     <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Bem -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Bem"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Bem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Luta_contra"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Mal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Combate_ao_crime -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Combate_ao_crime"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Combate_ao_crime">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Faz_parte"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Eh_Objetivo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
@@ -479,13 +493,33 @@
 
     <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Defesa_da_Bem -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Defesa_da_Bem"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Defesa_da_Bem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Faz_parte"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Eh_Objetivo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
     <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Defesa_da_Paz -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Defesa_da_Paz"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Defesa_da_Paz">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Faz_parte"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Eh_Objetivo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Eh_Objetivo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Eh_Objetivo"/>
     
 
 
@@ -549,6 +583,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Historia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Historia">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Destinado"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Audiencia"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Jovem"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Historia_de_super_heroi -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Historia_de_super_heroi"/>
@@ -569,7 +623,14 @@
 
     <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Japones -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Japones"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Japones">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Possui"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Super_poderes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
@@ -600,6 +661,19 @@
     <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Lugar -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Lugar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Luta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Luta">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Luta_de"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Bem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
@@ -671,7 +745,14 @@
 
     <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Personagem -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Personagem"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Personagem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Possui"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Super_poderes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
@@ -752,6 +833,68 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Envolvido"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Historia"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Puramente_maniqueista"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Protagoniza"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Luta"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Tomar_para_si"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Responsabilidade"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Usado"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Limite_da_caricatura"/>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Ficticio"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Personagem"/>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Possui"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Arquetipo"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Varia_Muito"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Protagoniza"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Historia_de_super_heroi"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -776,7 +919,14 @@
 
     <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Super_vilao -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Super_vilao"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Super_vilao">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Define"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Historias_de_super_aventura"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
@@ -792,9 +942,35 @@
     
 
 
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Tirinha -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Tirinha"/>
+    
+
+
     <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Tokusatsu -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Tokusatsu"/>
+    
+
+
+    <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Uniforme -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Uniforme">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Usado"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Japones"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#Personagem"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
@@ -1169,7 +1345,9 @@
 
     <!-- http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Uberto_Eco -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Uberto_Eco"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_Uberto_Eco">
+        <Autor rdf:resource="http://www.semanticweb.org/baltz/ontologies/2019/4/untitled-ontology-7#I_De_Superman_au_Surhomme"/>
+    </owl:NamedIndividual>
     
 
 

@@ -112,6 +112,9 @@ F_Tornou_se_popular(x, y) --> x tornou-se popular em y
 F_Usado(x, y) --> x eh usado por y
 F_Usou(x, y) --> x usou y
 
+
+F_Eh_Objetivo(x) --> x eh um objetivo
+
 ----------------------------------
 F_Lancou_na_data(x, y, z) --> x lancou y na data z
 ----------------------------------
@@ -124,7 +127,7 @@ F_Lancou(x, y) --> x lancou y
 F_Luta(x, y, z) --> x eh uma luta de y conta z
 ----------------------------------
 F_Luta_de(x, y) --> x eh uma luta de y
-F_Luta_contra(y, z) --> y eh uma luta contra z
+F_Luta_contra(y, z) --> y eh contra z
 ----------------------------------
 
 
@@ -191,7 +194,7 @@ Um super-herói é um personagem fictício.
 -- Indivíduos:
 -- Propriedades:
 
-∀x Super_heroi(x) -> Personagem(x)  ^ Ficticio(x)
+∀x Super_heroi(x) -> Personagem(x)  ^ Ficticio(x) //FOI
 --------------------------------------------------------------------------------
 
 
@@ -218,11 +221,11 @@ ficção especulativa marcado também pelos super-vilões.
 ∀x
 F_Super_heroi(x) ^
 ∀y
-F_Historias_de_super_aventura(y) ^ F_Protagoniza(x, y) ^
+F_Historias_de_super_aventura(y) ^ F_Protagoniza(x, y) ^ //FOI
 ∃w
 F_Genero_de_ficcao_especulativa(w) ^ F_Faz_parte(y, w) ^
 ∃z
-F_Super_vilao(z) ^ F_Define(z, y)
+F_Super_vilao(z) ^ F_Define(z, y) //FOI
 --------------------------------------------------------------------------------
 
 
@@ -315,6 +318,7 @@ contra o mal.
     -- F_Luta
     -- F_Bem
     -- F_Mal
+    -- F_Eh_Objetivo
 -- Indivíduos:
 -- Propriedades:
     -- F_Objetivo
@@ -322,18 +326,20 @@ contra o mal.
 
 ∃x ∃y ∃z ∃w ∃u ∃t ∃g ∃k ∃l
 F_Super_heroi(x) ^
+F_Eh_Objetivo(y) ^
 F_Objetivo(y, x) ^
 F_Defesa_da_Bem(z) ^
 F_Defesa_da_Paz(w) ^
 F_Combate_ao_crime(u) ^
-(F_Faz_parte(z, y) v F_Faz_parte(w, y) v F_Faz_parte(u, y)) ^
+(F_Faz_parte(z, y) v F_Faz_parte(w, y) v F_Faz_parte(u, y)) ^ //FOI
 F_Responsabilidade(t) ^
-F_Tomar_para_si(x, t) ^
+F_Tomar_para_si(x, t) ^ //FOI
 F_Bem(k) ^
 F_mal(l) ^
-F_Luta_de(g, k) ^
-F_Luta_contra(k, z) ^
-F_Protagoniza(x, g)
+F_Luta(g) ^
+F_Luta_de(g, k) ^ //FOI
+F_Luta_contra(k, l) ^ //FOI
+F_Protagoniza(x, g) //FOI
 --------------------------------------------------------------------------------
 
 
@@ -417,7 +423,7 @@ equilíbrio do mundo que os rodeia do que se poderia acreditar.
     -- F_Fora_do_Mundo
 
 F_Livro(I_De_Superman_au_Surhomme) ^ //FOI
-F_Autor(I_Uberto_Eco, I_De_Superman_au_Surhomme) ^
+F_Autor(I_Uberto_Eco, I_De_Superman_au_Surhomme) ^ //FOI
 ∃x
 F_Observa(I_Uberto_Eco, x) ^
 F_Observado_em(x, I_De_Superman_au_Surhomme) ^
@@ -470,13 +476,13 @@ puramente maniqueísta que se destinam a uma audiência jovem.
 ∃x ∃y ∃z ∃t
 F_Super_heroi(x) ^
 F_Usado(x, y) ^
-(F_Personagem(y) ^ F_Simbolico(y)) v F_Limite_da_caricatura(y) ^
+(F_Personagem(y) ^ F_Simbolico(y)) v F_Limite_da_caricatura(y) ^ //FOI
 F_Historia(z) ^
 F_Puramente_maniqueista(z) ^
-F_Envolvido(x, z) ^
+F_Envolvido(x, z) ^ //FOI
 F_Audiencia(t) ^
 F_Jovem(t) ^
-F_Destinado(z, t)
+F_Destinado(z, t) //FOI
 
 --------------------------------------------------------------------------------
 
@@ -501,7 +507,7 @@ O arquétipo do super-herói, no entanto, tem muitas variações.
 ∀y ∃x
 F_Super_heroi(y) ^
 F_Arquetipo(x) ^
-F_Possui(y, x) ^
+F_Possui(y, x) ^ //FOI
 F_Varia_Muito(x)
 
 --------------------------------------------------------------------------------
@@ -676,8 +682,8 @@ F_Faz_parte(I_Princípe_Gamma, I_Kamishibais) ^ //FOI
 ∃y ∃z
 F_Uniforme(y) ^
 F_Super_poderes(z) ^
-F_Usado(y, x) ^
-F_Possui(x, z) ^
+F_Usado(y, x) ^ //FOI
+F_Possui(x, z) ^ //FOI
 F_Do_Inicio(x, I_1930)
 --------------------------------------------------------------------------------
 
@@ -756,7 +762,7 @@ F_Quadrinho(x) ^
 F_Estrou_durante(I_Mulher_Maravilha, I_Era_de_Ouro) //FOI
 F_Super_heroina(I_Mulher_Maravilha) ^ //FOI
 F_Iconico(I_Mulher_Maravilha) ^ //FOI
-F_Faz_parte(I_Mulher_Maravilha, x) ^
+F_Faz_parte(I_Mulher_Maravilha, x) ^ //??? DA PRA ARRUMAR USANDO F_Super_heroina
 
 --------------------------------------------------------------------------------
 
@@ -1181,7 +1187,6 @@ F_Compartilha(z, y) ^
 F_Faz_parte(z, t) ^
 F_Modelo_americano(t)
 
-
 --------------------------------------------------------------------------------
 
 
@@ -1467,12 +1472,12 @@ o padrão legal para a proteção de marca registrada na designação distintiva
     -- F_Cumprir
     -- F_Contestar
 
-Marca(SuperHero)^ //FOI
+Marca(I_Super_Hero)^ //FOI
 ∀x Critico(x) ^
 Comunidade_legal(x) ^
-Contestar(x, Super Hero) ^
+Contestar(x, I_Super_Hero) ^
 ∃y Padrao_legal_para_a_protecao_marca_registrada_na_designação_distintiva_dos_Estados_Unidos_de_uma_unica__fonte_de_um_produto_ou_servico(y) ^
-Cumprir(Super Hero, y)
+Cumprir(I_Super_Hero, y)
 --------------------------------------------------------------------------------
 
 
